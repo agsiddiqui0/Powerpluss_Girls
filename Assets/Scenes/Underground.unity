@@ -226,8 +226,8 @@ GameObject:
   - component: {fileID: 254309673}
   - component: {fileID: 254309672}
   - component: {fileID: 254309671}
-  - component: {fileID: 254309670}
   - component: {fileID: 254309675}
+  - component: {fileID: 254309676}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -235,18 +235,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &254309670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254309669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f70a89f6d35094335a5abdf6cb1ca8fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &254309671
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -416,6 +404,18 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &254309676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254309669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70a89f6d35094335a5abdf6cb1ca8fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

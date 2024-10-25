@@ -16,7 +16,7 @@
                 },
                 {
                     "name": "Sprint",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "7d337ba2-1dcd-4bc6-9483-e79f88c2af47",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -112,10 +112,10 @@
                 {
                     "name": "",
                     "id": "3a18afbe-e03a-4163-bb71-7562dd75af2b",
-                    "path": "<Keyboard>/shift",
-                    "interactions": "Hold",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(behavior=2)",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
