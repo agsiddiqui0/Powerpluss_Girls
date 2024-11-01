@@ -30,9 +30,16 @@ public class PlayerController : MonoBehaviour
         movementVector = value.Get<Vector2>();
     }
 
-    /*void OnSprint(InputAction.CallbackContext context)
+    void OnSprintPress (InputValue value)
     {
+        speed = 7;
+    }
 
-    }*/
+    void OnSprintRelease ( )
+    {
+        speed = 4;
+    }
+
+    
 
 }

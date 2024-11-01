@@ -15,15 +15,6 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Sprint",
-                    "type": "Button",
-                    "id": "7d337ba2-1dcd-4bc6-9483-e79f88c2af47",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "Interact",
                     "type": "Button",
                     "id": "0131d549-c721-47c2-82cb-07b4048d5590",
@@ -40,6 +31,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "SprintRelease",
+                    "type": "Value",
+                    "id": "5d303fea-e4a1-49bc-bd57-cf6105607222",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SprintPress",
+                    "type": "Value",
+                    "id": "cbca7186-e507-470c-8b34-78b7bdf6fcb0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.1,behavior=1)",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -111,17 +120,6 @@
                 },
                 {
                     "name": "",
-                    "id": "3a18afbe-e03a-4163-bb71-7562dd75af2b",
-                    "path": "<Keyboard>/leftShift",
-                    "interactions": "Press(behavior=2)",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Sprint",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "872d7b26-4b06-4754-8b0d-e2e93b2d1b7e",
                     "path": "<Keyboard>/f",
                     "interactions": "",
@@ -139,6 +137,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Shock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5863ec06-49b6-4325-9c18-32b59aa38e73",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "SprintRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9f6f612-f483-408d-81be-59fb67857cee",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SprintPress",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
