@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - NPC Layer
   - Water
   - UI
   - 
@@ -41,6 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 2592604747
+  - name: Ground Layer
+    uniqueID: 1621574315
+    locked: 0
+  - name: Accessory Layer
+    uniqueID: 2253455219
+    locked: 0
+  - name: NPC Layer
+    uniqueID: 387386719
+    locked: 0
+  - name: Player Layer
+    uniqueID: 3448602669
+    locked: 0
+  - name: UI Layer
+    uniqueID: 2798842677
     locked: 0
