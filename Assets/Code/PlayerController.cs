@@ -60,15 +60,6 @@ public class PlayerController : MonoBehaviour
         }
 
      
-
-
-
-        /*
-           if (movementVector.y < 0)
-           {
-               animator.Walk_Front = true;
-           }
-        */
     }
 
     void OnSprintPress (InputValue value)
@@ -81,6 +72,6 @@ public class PlayerController : MonoBehaviour
         speed = 4;
     }
 
-    
+
 
 }
