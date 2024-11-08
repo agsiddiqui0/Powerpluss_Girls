@@ -28,6 +28,11 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue value)
     {
         movementVector = value.Get<Vector2>();
+        animator.SetBool("Walk_Side", !Mathf.Approximately(movementVector.x, 0));
+        if (!Mathf.Approximately(movementVector.x, 0))
+        {
+            sr.flipX = movementVector.x < 0;
+        }
     }
 
     void OnSprintPress (InputValue value)
