@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     int speed = 4;
 
     [SerializeField] Animator animator;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
