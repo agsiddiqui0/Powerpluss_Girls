@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Underground.unity
     guid: 306961de7610e4b83b0f96b3e164fc6c
+  - enabled: 1
+    path: Assets/Scenes/Middle.unity
+    guid: 29dd75272c42b44d09592997f1b7fefe
   m_configObjects: {}

@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class ChangeSceneTrigger : MonoBehaviour
 {
 
-    public void GoToMiddle()
-    {
+    void OnTriggerEnter2D(Collider2D collision) {
         SceneManager.LoadScene("Middle");
     }
+
 }
