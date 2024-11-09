@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Middle.unity
     guid: 29dd75272c42b44d09592997f1b7fefe
+  - enabled: 1
+    path: Assets/Scenes/Vaish.unity
+    guid: 39bf1468a8ec140a78b6ac539289f0be
+  - enabled: 1
+    path: Assets/Scenes/Defne.unity
+    guid: 64aedbf93b2f045ea8c453089326122b
+  - enabled: 1
+    path: Assets/Scenes/Anam.unity
+    guid: 79f8a800101d243d68ee5ab6415e20ba
+  - enabled: 1
+    path: Assets/Scenes/Allison.unity
+    guid: 2f3afaa55383a47a09737ec76276ba86
   m_configObjects: {}
