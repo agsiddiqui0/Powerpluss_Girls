@@ -18,11 +18,14 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    //Global Variables
+    int animalpoints = 0;
+
     // Update is called once per frame
     void Update()
     {
         rb.velocity = new Vector2(speed * movementVector.x, speed * movementVector.y);
-        Debug.Log("speed is " + speed);
+        //Debug.Log("speed is " + speed);
 
         movementVector.x = Input.GetAxisRaw("Horizontal");
         movementVector.y = Input.GetAxisRaw("Vertical");
@@ -72,6 +75,21 @@ public class PlayerController : MonoBehaviour
         speed = 4;
     }
 
+    private void OnTriggerEnter2D (Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Suit_Animal"))
+        {
+            animalpoints++;
+            Debug.Log(animalpoints);
+        }
 
+       
+        if (collision.gameObject.CompareTag("Block_Collider_1"))
+        {
+            if (animalpoints == 7)
+                collision.gameObject.SetActive(false);
+        }
+
+    }
 
 }
