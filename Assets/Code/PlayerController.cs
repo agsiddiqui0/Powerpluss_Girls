@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Yarn.Unity;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,7 +10,11 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementVector;
     private Rigidbody2D rb;
     int speed = 4;
+    bool movementEnabled = true;
     int orb = 0;
+    int animalpoints = 0;
+
+    public DialogueRunner dialogueRunner;
 
     [SerializeField] Animator animator;
     [SerializeField] AudioSource menuMusic;
@@ -20,21 +25,20 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         
     }
-
-    //Global Variables
-    int animalpoints = 0;
+ 
 
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(speed * movementVector.x, speed * movementVector.y);
-        //Debug.Log("speed is " + speed);
+        dialogueRunner.onDialogueStart.AddListener(FreezeMovement);
+        dialogueRunner.onDialogueComplete.AddListener(UnfreezeMovement);
 
-        movementVector.x = Input.GetAxisRaw("Horizontal");
-        movementVector.y = Input.GetAxisRaw("Vertical");
+         if (movementEnabled) {
+            rb.velocity = new Vector2(speed * movementVector.x, speed * movementVector.y);
 
-
-
+            movementVector.x = Input.GetAxisRaw("Horizontal");
+            movementVector.y = Input.GetAxisRaw("Vertical");
+        }
     }
 
     void OnMove(InputValue value)
@@ -67,13 +71,26 @@ public class PlayerController : MonoBehaviour
 
      
     }
+    private void FreezeMovement()
+    {
+        rb.velocity = Vector2.zero;
+        movementEnabled = false;
+    }
+
+    // Unfreeze player movement
+    private void UnfreezeMovement()
+    {
+        movementEnabled = true;
+
+    }
+
 
     void OnSprintPress (InputValue value)
     {
         speed = 7;
     }
 
-    void OnSprintRelease ( )
+    void OnSprintRelease (InputValue value)
     {
         speed = 4;
     }
