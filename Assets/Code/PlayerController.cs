@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementVector;
     private Rigidbody2D rb;
     int speed = 4;
+    int orb = 0;
 
     [SerializeField] Animator animator;
     void Start()
@@ -77,6 +78,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D (Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Orb"))
+        {
+            collision.gameObject.SetActive(false);
+            orb++;
+            Debug.Log("Orbs Obtained: " + orb);
+        }
+        
+        
         if (collision.gameObject.CompareTag("Suit_Animal"))
         {
             animalpoints++;
