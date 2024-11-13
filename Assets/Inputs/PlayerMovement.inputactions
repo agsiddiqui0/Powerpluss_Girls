@@ -16,12 +16,12 @@
                 },
                 {
                     "name": "Interact",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "0131d549-c721-47c2-82cb-07b4048d5590",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": "Press(pressPoint=0.1)",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Shock",
@@ -121,10 +121,10 @@
                 {
                     "name": "",
                     "id": "872d7b26-4b06-4754-8b0d-e2e93b2d1b7e",
-                    "path": "<Keyboard>/f",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
