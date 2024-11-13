@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     int orb = 0;
 
     [SerializeField] Animator animator;
+    [SerializeField] AudioSource menuMusic;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
