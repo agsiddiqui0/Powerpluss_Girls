@@ -28,8 +28,9 @@ public class NPCScript : MonoBehaviour
         runner.StartDialogue(dialogueName);
     }
 
-    void OnTriggerExit2D(Collider2D collider)
+ /*   void OnTriggerExit2D(Collider2D collider)
     {
 
     }
+ */
 }
