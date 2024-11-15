@@ -9,6 +9,5 @@ public class ChangeScenes : MonoBehaviour
   public void GoToSceneTwo()
   {
     SceneManager.LoadScene("Underground");
-
   }
 }

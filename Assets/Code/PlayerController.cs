@@ -9,10 +9,10 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Vector2 movementVector;
     private Rigidbody2D rb;
-    int speed = 4;
+    const int speed = 4;
     public bool movementEnabled = true;
     int orb = 0;
-    //int animalpoints = 0;
+    int animalpoints = 0;
 
     public DialogueRunner dialogueRunner;
 
@@ -33,8 +33,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if (movementEnabled) {
-
+         if (movementEnabled) 
+         {
             rb.velocity = new Vector2(speed * movementVector.x, speed * movementVector.y);
 
             movementVector.x = Input.GetAxisRaw("Horizontal");
@@ -75,7 +75,6 @@ public class PlayerController : MonoBehaviour
     public void FreezeMovement()
     {
         rb.velocity = Vector2.zero;
-        
         movementEnabled = false;
     }
 
@@ -84,17 +83,6 @@ public class PlayerController : MonoBehaviour
     {
         movementEnabled = true;
 
-    }
-
-
-    void OnSprintPress (InputValue value)
-    {
-        speed = 7;
-    }
-
-    void OnSprintRelease (InputValue value)
-    {
-        speed = 4;
     }
 
     private void OnTriggerEnter2D (Collider2D collision)
@@ -107,18 +95,18 @@ public class PlayerController : MonoBehaviour
         }
         
         
-        /*if (collision.gameObject.CompareTag("Suit_Animal"))
+        if (collision.gameObject.CompareTag("Suit_Animal"))
         {
             animalpoints++;
-            Debug.Log(animalpoints);
+            Debug.Log("Animal points: " + animalpoints);
         }
 
        
         if (collision.gameObject.CompareTag("Block_Collider_1"))
         {
-            if (animalpoints == 7)
+            if (animalpoints >= 7)
                 collision.gameObject.SetActive(false);
-        }*/
+        }
 
     }
 
