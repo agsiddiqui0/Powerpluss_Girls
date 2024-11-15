@@ -213,7 +213,9 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.049016297
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2008450186473941254, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
+    - {fileID: 5582657410033547715, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4021222339563692817, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
@@ -18747,7 +18749,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yarnProject: {fileID: 7545569452688597077, guid: a98a69943e56c4ea28fe572dde0e74ad, type: 3}
   _variableStorage: {fileID: 0}
-  dialogueViews: []
+  dialogueViews:
+  - {fileID: 0}
+  - {fileID: 0}
   startNode: Start
   startAutomatically: 0
   runSelectedOptionAsLine: 0
