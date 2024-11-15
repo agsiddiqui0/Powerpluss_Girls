@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] Animator animator;
     [SerializeField] AudioSource menuMusic;
+    [SerializeField] AudioSource SFXSource;
+    [SerializeField] AudioClip orbCollected;
 
     void Start()
     {
@@ -91,6 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
             orb++;
+            SFXSource.PlayOneShot(orbCollected);
             Debug.Log("Orbs Obtained: " + orb);
         }
         
