@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Suit_Animal"))
         {
             animalpoints++;
-            Debug.Log("Animal points: " + animalpoints);
+            Debug.Log("Animal points: ");
         }
 
        
