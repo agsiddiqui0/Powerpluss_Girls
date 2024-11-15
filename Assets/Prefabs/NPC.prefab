@@ -145,7 +145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c9b786de0f50a642a73fd4753c5b50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
   runner: {fileID: 0}
   dialogueName: Start
 --- !u!114 &-1753534339068722792
@@ -243,7 +242,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025983334, y: -0.07794976}
+  m_Offset: {x: 0.016156316, y: -0.068122685}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -254,7 +253,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0912976, y: 2.9435492}
+  m_Size: {x: 1.5606372, y: 2.314618}
   m_EdgeRadius: 0
 --- !u!114 &2707045773681604503
 MonoBehaviour:
@@ -268,6 +267,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c9b786de0f50a642a73fd4753c5b50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
   runner: {fileID: 0}
   dialogueName: 
