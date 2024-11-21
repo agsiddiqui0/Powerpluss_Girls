@@ -19797,6 +19797,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7948385522411557641, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -996345443, guid: 50b7e85c454aa1347866208dc21ecf99, type: 3}
+    - target: {fileID: 7948385522411557641, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948385522411557641, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948385522411557641, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948385522411557641, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
