@@ -21366,7 +21366,7 @@ PrefabInstance:
       objectReference: {fileID: 660912892}
     - target: {fileID: 2707045773681604503, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
       propertyPath: dialogueName
-      value: Start
+      value: Effarig
       objectReference: {fileID: 0}
     - target: {fileID: 6548462473836289006, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
       propertyPath: m_Name
