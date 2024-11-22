@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
     const int speed = 4;
     public bool movementEnabled = true;
     int orb = 0;
-    int animalpoints = 0;
+    public int animalpoints = 0;
+    private GameObject Effargia;
 
     public DialogueRunner dialogueRunner;
 
@@ -28,7 +29,9 @@ public class PlayerController : MonoBehaviour
 
         dialogueRunner.onDialogueStart.AddListener(FreezeMovement);
         dialogueRunner.onDialogueComplete.AddListener(UnfreezeMovement);
-        
+
+        Effargia = GameObject.FindGameObjectWithTag("Effargia");
+        Effargia.SetActive(false);
     }
  
 
@@ -42,6 +45,9 @@ public class PlayerController : MonoBehaviour
             movementVector.x = Input.GetAxisRaw("Horizontal");
             movementVector.y = Input.GetAxisRaw("Vertical");
         }
+    
+        if (animalpoints > 11)
+            Effargia.SetActive(true);
     }
 
     void OnMove(InputValue value)
@@ -101,7 +107,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Suit_Animal"))
         {
             animalpoints++;
-            Debug.Log("Animal points: ");
+            Debug.Log("Animal points: " + animalpoints);
         }
 
        

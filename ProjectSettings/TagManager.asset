@@ -8,6 +8,7 @@ TagManager:
   - Cool_Animal
   - Block_Collider_1
   - Orb
+  - Effargia
   layers:
   - Default
   - TransparentFX
