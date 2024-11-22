@@ -1,0 +1,56 @@
+﻿title: Effargia
+---
+Effargia: Sup. Are you a visitor? I have never seen a creature like you from other tribes.
+-> You talk normal.
+    Effargia: Yeah. Those suit-wearing dummies don't keep up with the times.
+    Effargia: All huddled in their little cult with my father.
+    Effargia: But not all of them are bad, I suppose.
+-> Do you have an orb?
+    Effargia: Ew, take me out to dinner first.
+    Effargia: Or not, I already have my eye on someone.
+Effargia: ...
+Effargia: Yes, I, the great Effargia has a crush.
+Effargia: ...
+Effargia: Hey, I have an idea.
+Effargia: Figure out if they like me back.
+->Who?
+    Effargia: Uh, I'm obviously not going to say their name out loud.
+    Effargia: Go figure it out yourself.
+->I'm ready to guess now.
+    <<jump Love>>
+===
+
+
+title: Love
+---
+Effargia: Finally! Who is it if you're so sure?
+->Bruin
+    Effargia: Ew.
+    <<jump Love>>
+->Crocodile
+    Effargia: Ew.
+    <<jump Love>>
+->Cobra
+    Effargia: Ew.
+    <<jump Love>>
+->Octopus
+    Effargia: Ew.
+    <<jump Love>>
+->Hedgehog
+    Effargia: Ew.
+    <<jump Love>>
+->Gorilla
+    Effargia: Ew...
+    Effargia: ...actually...
+    Effargia: Ugh. Whatever. Take your stupid sphere and get out. 
+    Effargia: I hid it at trees near the enterance. 
+->Tiger
+    Effargia: Ew.
+    <<jump Love>>
+->Turtle
+    Effargia: Ew.
+    <<jump Love>>
+-> Penguin
+    Effargia: Ew.
+    <<jump Love>>
+===
