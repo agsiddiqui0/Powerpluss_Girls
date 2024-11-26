@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6851308122915036471}
   - component: {fileID: 739164273894492741}
   m_Layer: 0
-  m_Name: To X Scene
+  m_Name: To Middle Scene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
