@@ -1,0 +1,3735 @@
+fileFormatVersion: 2
+guid: 9b92884d5534ef24588846d3ef05a21d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: castle_outside_shadows_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 786
+        width: 178
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd68aa9e68bf9b42af29648b8f289ad
+      internalID: 1404655676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 818
+        width: 338
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873226451a2b7dd46a72f27826a121c1
+      internalID: -230438011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 825
+        width: 146
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec5c0135c81f854aab95b86c201aa7a
+      internalID: -23594653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 921
+        width: 146
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17635afe26418994c89400309f6a423a
+      internalID: -1487589334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 896
+        width: 64
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb363e1c59dbfb645a922809e97282af
+      internalID: -1578749103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 889
+        width: 82
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77294a997aaa84e498553d704811a9ee
+      internalID: -1881691083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_6
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1009
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bf58228ba17214e858db8ba61429ef
+      internalID: -131902711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_7
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1009
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9277140f4f3d29b4bba859b3a9243bea
+      internalID: 936585796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_8
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 992
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff0e5582d816344b9aeafaaf4408ce4
+      internalID: -433455052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_9
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 992
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d945d3b6c0f3a4aa44f94d5fdd0ec9
+      internalID: -568569993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_10
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 992
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492b75385d011dc4a8e320416cb10b2b
+      internalID: -1913224595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_11
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 992
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d41dc513f6e24380f2a51ca8e1d7e
+      internalID: 1866945596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_12
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 992
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6314367dcea8b9546b1edad677cc69d0
+      internalID: -574194277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_13
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 992
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81190a14736c6be43a097db7d992c915
+      internalID: 1773245437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_14
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1024
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456cc80f0d2a3a4db32f4ce82ad554b
+      internalID: 1146701326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_15
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1024
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfd1298d18a8394e8ec80f4afd8061c
+      internalID: 49446290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_16
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1030
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b9f688450147b49a19ccd846a1eb51
+      internalID: 65346364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_17
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 960
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03d85bd63b04b4f88d254b6959a0bb
+      internalID: -1064451908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_18
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 960
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13ea555428563a44b3b1170df75f661
+      internalID: 353420756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_19
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 942
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7386dfb608a769d4694c4677478e809d
+      internalID: -2107183247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_20
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 942
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1dd01b08e9da4880169e1a0db3a32
+      internalID: 1032737767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 942
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a30ca153f9546e43863817ee08f37c7
+      internalID: -1685204025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_22
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 942
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda531ece892c804a84c08ceb8d1c37d
+      internalID: 1798589152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 942
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf23a91ddaac3246955b2d2cf1aaa6c
+      internalID: -2019826349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_24
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 942
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3c4105e9424074f96e930e30953651
+      internalID: -1389120255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_25
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 976
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28af1050b7a9c74ea3ce4c707e31755
+      internalID: 1179150719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_26
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 976
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce93da0132a2a4485dcd1609d4447d
+      internalID: -1999076337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_27
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 981
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eaf2ae1a608634894970fedb5c1fce
+      internalID: 1679000976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_28
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 933
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99387d0fb4bad9947a8700469e50880d
+      internalID: 1409585076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_29
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 933
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedaf6f40b740a34c83f40ee9a2b81b5
+      internalID: -400720967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_30
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 901
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eece1fa6c07b041b82605a503e937b
+      internalID: 1435241546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_31
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 901
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a856289e9c1d54199f93e25749aaf9
+      internalID: 320899332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_32
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 902
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08246228bdf58c4d800e037b27d1ff3
+      internalID: 814160037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_33
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 903
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4974ce0028fc2ac43b47c0f486a55aad
+      internalID: 1204353585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_34
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 902
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b1f07a0ff5e3a4eb15948364510950
+      internalID: -14655223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_35
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 902
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d078200ca6d196439e8b9a87ce7633b
+      internalID: 1621394821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_36
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 884
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bdf23ef2d7a934faf2c6f6c0c12ce3
+      internalID: -1320700675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_37
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 884
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893039311ff92ee48bdf309bd52b8a96
+      internalID: 357378036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_38
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 864
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2156619a84cd094499bc5c0adce4c947
+      internalID: -58752502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_39
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 864
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdcd739460dcbf4186247993432bc7f
+      internalID: -542625444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_40
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 864
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9761471f7b56f40b6a7c5a05427b59
+      internalID: 963747232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_41
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 864
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10131b615aeeac747ae08103def299ae
+      internalID: 36249742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_42
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 864
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75c0e838519ace4795a5ca7c801d0e7
+      internalID: 703989489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_43
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 864
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e315d39c5b495ff46919029e8215bdc6
+      internalID: 412711493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_44
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 864
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da5ff572965d3441ad5cb39e93cbf2e
+      internalID: 1814733561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_45
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 832
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd959678732eb444bb28d8fbc912155
+      internalID: 739790845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_46
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 532
+        width: 194
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c51c7f4a391f5444889e071c089998f
+      internalID: -2005353658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_47
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 817
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216d905087a50ce4db0ad972c4ecf4c0
+      internalID: 824216615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_48
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 817
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb048d2fdb85be439b1033c061a7698
+      internalID: 658083875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_49
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 800
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18b466f8fb3f3043bb3e67bb00ac252
+      internalID: 137635162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_50
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 800
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1c6815ccb222b408cd6f2dbad2a22a
+      internalID: -1531705761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_51
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 800
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8182d9d8469bcbc47ad7198cf9d5be20
+      internalID: 1915447696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_52
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 800
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0994eb441a274dafaaadf178c2809
+      internalID: 1450776991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_53
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05149741002295642809d83dcf584900
+      internalID: 804138966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_54
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc95c52c0a0656142a00521b5c67ac55
+      internalID: 2002847844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_55
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 832
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a590c3557bc52e4489e7c75f8bde4025
+      internalID: -1391686499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_56
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 832
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f6a27f1b681c14ca06af83254e7672
+      internalID: -1034687230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_57
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 838
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357142aaf65c389439572fb7a128e009
+      internalID: -1920171787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 530
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae371d70fa32143831b5080bad2ee4
+      internalID: 173637534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_59
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 480
+        width: 241
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f312e9949860a4d9b6c1f6ee92b5b5
+      internalID: -571180408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_60
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 768
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b01d7becce998f45b7d15fda5506eef
+      internalID: -1364121665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_61
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 768
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad89e684864a0e428cc5bd17be1d068
+      internalID: 1490724580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_62
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 750
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cea799b38796d54e920ce1d2deb30b8
+      internalID: 1352291260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_63
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 750
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9b55666b9b5b4f8d8382f899bd5e3
+      internalID: 773994591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_64
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 750
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f34eff6f35a25a4bb0a68691cbe3cfb
+      internalID: -947551192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_65
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 750
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bbbad7ed78ef140890ffc7b1b85216
+      internalID: 1432777201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_66
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 750
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6f932e1e6b180499702bf544fc2dcc
+      internalID: 529315916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_67
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 750
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85794f1127db0ee4fb813a0474ff7be4
+      internalID: -1857492770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_68
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 784
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651516de4c0b4a4419677c8098dacd99
+      internalID: -98037650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_69
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 784
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185cb69530a0d494c8810f3c2a1ceff0
+      internalID: 572927056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_70
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 789
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ac67e65501f5f49861f4f10646c7d8
+      internalID: -1217803311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_71
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 741
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347da10a71b6ed841acf91f6f3e9aef7
+      internalID: -1953603614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_72
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 741
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d160d8cbcb5ad04f84a1f4298ca4240
+      internalID: -751413711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_73
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 709
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe192c4b98a64574e97caf688c83d73b
+      internalID: 916585540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_74
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 709
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459723f410688cb40bb4e682f8a2e953
+      internalID: -656808974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_75
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 710
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4417e4fee7e6de246ad8796c080acea3
+      internalID: -1732703916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_76
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 711
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94261908bb86494e91a4b173f27a5f6
+      internalID: 247059730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_77
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 710
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381ae303472e70948a8676de2026fffc
+      internalID: -2089009135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_78
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 710
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123e35753de572d4399514c6c7370f9e
+      internalID: 980015629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_79
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 692
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e8a17e445cc64f983cadf58ccebd2
+      internalID: 2022740122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_80
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 692
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3502ea7e63ac1114dbf9a9aff2b145a0
+      internalID: 1671518943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_81
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 672
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ffa36eb74ce0d4089a9848a3f20c79
+      internalID: -1857645240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_82
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 672
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a313c93d8a6f3cd4ca531ec9f9e492d0
+      internalID: -1745213255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_83
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 672
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a638f6720c132a34ea5c84ee190cbe6d
+      internalID: 155315477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_84
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 672
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af90d6c43ce95a64b9198ec043e594a7
+      internalID: -1936587942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_85
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 672
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d7064cde126a04481c273a7c50a9fd
+      internalID: 1746441365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_86
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 672
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6d593fd1b044b47b8607e7353cbc1f
+      internalID: -1869403917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_87
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 672
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b6b87d679335c449e16d4f403ee549
+      internalID: 1540264826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_88
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 647
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bd0d3dfd060c14ab343df757ad20af
+      internalID: 39535994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_89
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 647
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa33bb1e50dacc24b9dc0b4ffe6234dc
+      internalID: -446104049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_90
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 647
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b692595e5d8e4192a24f364beee22
+      internalID: -959037980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_91
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 647
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d0fb5e162ce4443b402b37925ce5c8
+      internalID: -162652085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_92
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 647
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7fe27a49ba4384fbe3d749d4096be1
+      internalID: 686127768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_93
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 652
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79406cde5165d6439f5a1d04e362186
+      internalID: 1162025025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_94
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 563
+        width: 256
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82823f6fc87d1dc4c87cf139b4fd8fc2
+      internalID: -384552045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_95
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 524
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e68700934290e4ab23bb100977a7a2
+      internalID: 334262226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_96
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 524
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1356d0112b034594cb4828f28d20c3f3
+      internalID: 488184171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_97
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 524
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f0ed5d443723a498b347e2bad075e6
+      internalID: 2025544079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_98
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 524
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a1f6ee0037f504a948064fca47359e
+      internalID: 360687041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_99
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d452f5dfbc995714a839a31fb7e37ea2
+      internalID: 697897355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_100
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 352
+        width: 160
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4093854acb4d542a2211998dd1f00a
+      internalID: 420334135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_101
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 480
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f4b208624458d43bea2e16e045ad55
+      internalID: -258768834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_102
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 429
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c1c09abe0d4da4f83afb35004939c2
+      internalID: 1003753287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_103
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 429
+        width: 80
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aba0b35de7e884280bd5cd7f4db6a6
+      internalID: -136258757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_104
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 448
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997eb8e7a9fb9554c851207c7e4d2170
+      internalID: -642800460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_105
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 448
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066d0d35e712d44499db7be398b6f6ee
+      internalID: -1608566758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_106
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 394
+        width: 64
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de67c8a639a119540bc6660250901733
+      internalID: 727660671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_107
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 394
+        width: 68
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b55c16126fc7fe4fa8cd9a1c8072b93
+      internalID: -1869621717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_108
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 244
+        width: 40
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae13e369a63f2246bcb45037f2f6c62
+      internalID: -1745445826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_109
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 244
+        width: 52
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb70277e88fc44ebc2b0acaf04a846
+      internalID: -377424763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_110
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 244
+        width: 40
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6992a49e310b606499b629f343a4bc5b
+      internalID: -1011902396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_111
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 244
+        width: 52
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9f2f08948c17e4a97824534466da73
+      internalID: 1506766240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_112
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 336
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edb2af8df13c4947895823a933db2ba
+      internalID: 896868986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_113
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 336
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9dfd22db4f1dd4d85d134787a84468
+      internalID: 2030028011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_114
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 352
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d2bf6d1606d1d40886098fd7d80721
+      internalID: 2020016407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_115
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 367
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61250b4e87634da44b668392b343fb47
+      internalID: -1116727063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_116
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 364
+        width: 20
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d418a31d76dac4d843b8265d7d3f65
+      internalID: -18074966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_117
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 364
+        width: 20
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56995dcac515a0439cc4330798b784e
+      internalID: 942180308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_118
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 364
+        width: 20
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883d4dbee4a293c4096e2fc9bc7aeba8
+      internalID: 1214249005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_119
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 364
+        width: 20
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10927f906c11964ea66467b6f0ac4cd
+      internalID: -223643402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_120
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 352
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcd1f39b53e7b548a53d86fb99595bc
+      internalID: 750674940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_121
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 352
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2f1be31c863234984b15a644113eab
+      internalID: -1586850118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_122
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 352
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b334d42be81ed241963c95cf1ae16c5
+      internalID: 279079590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_123
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 352
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1d5a7a4bcbdbd4c95cc99d5f3da84f
+      internalID: 232532823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_124
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 240
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178303e4d50481c41ab280735d1ef873
+      internalID: -141985512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_125
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 240
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1104325eaf8ba2b4d93ccce6d0e51919
+      internalID: -972124381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_126
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 256
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec3eba2313214c45bcd82898873f039
+      internalID: 811231134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_127
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 271
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1571bc0e9745a494cb93c28188a5117d
+      internalID: 469145728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_128
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 56
+        width: 108
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a91c93c06b197442a1872a779bbb6cf
+      internalID: 33602776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_129
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 56
+        width: 108
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a80f15c1ffaba940bb9f5fa8c9f1289
+      internalID: 1527237160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_130
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 224
+        width: 5
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df1cbbb746802148b73e0ba5037e693
+      internalID: -344478414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_131
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 224
+        width: 5
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2afca8ab8343442afeac71fa174681
+      internalID: -583774048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_132
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 256
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada9927e79ca7ed4497318a01af1a267
+      internalID: 1418676464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_133
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 264
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618c7af35d6ce64408f99575a885bd40
+      internalID: -976783607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_134
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 192
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2d5e4920d7a8743a8ad568f72dd32c
+      internalID: -69553297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_135
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 264
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc544838601d9694790108727676d545
+      internalID: -42664903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_136
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 256
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d074dd2a00eb944bbe3ec666b62dea
+      internalID: -2107805953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_137
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 204
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90065cf4f0f02504d9b0f2da78acee56
+      internalID: 195038308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_138
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 204
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56900aee630ab3841ae91e46e4132741
+      internalID: -1950725556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_139
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 204
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3b3278c834c98439a9e0a289d197cd
+      internalID: -705266362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_140
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 204
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1562f3e2199c74a4f8ed3066c4b768a1
+      internalID: 1994390587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_141
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 224
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb7ea9bf3804ea47840d1aad01c4068
+      internalID: -1919193798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_142
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 224
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec01f6cca2604894aad74f03915b9ad3
+      internalID: -1764926889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_143
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 60
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69323005297974f84db1c379a46c86
+      internalID: -13932097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_144
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 22
+        width: 62
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e5b2c4ddb32c6429486d5dca927875
+      internalID: -1867210211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_145
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 68
+        width: 60
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6860509bdc2cbb40b634772928d0511
+      internalID: 1989740460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_146
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 22
+        width: 60
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc5d909071aaa498be9ec472aa3c72
+      internalID: 442909596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_147
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 22
+        width: 62
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb40b8f297db546a412c785f20be3b
+      internalID: 922510433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_148
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 68
+        width: 60
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32edaee95d10adc409738d534958f075
+      internalID: 411245094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_149
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 144
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b117f6e05274b642bbb2c3b75f0c72c
+      internalID: -621990946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_150
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 143
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b0e39602fbb64428246967ed4e0c87
+      internalID: 1557662138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_151
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85192efaa8b5824459819f2d0c2a3194
+      internalID: -963692525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_152
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 160
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b1f0f9862b0b941bca03b1466bb28a
+      internalID: 1436522125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_153
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df769c2fb872efa4fa8eed7e3ee7ecd7
+      internalID: -1156908510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_154
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 81
+        width: 5
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7cfb0c6e2cb544a8dd2ad1254ab9b2
+      internalID: -1988228739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_155
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 81
+        width: 5
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eff0829e47dbf947ba8bcfc190a64e6
+      internalID: 1698237401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_156
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 128
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205525c04ef978741af3b1c89aec9572
+      internalID: 1624991666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_157
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 128
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d163a40988f7e204bb7ab3b4453798d8
+      internalID: 894499226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_158
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 74
+        width: 64
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2053899e818ce9b49a1b3b8829d31c09
+      internalID: -1670887931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_159
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 74
+        width: 68
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aca7681b1174ef49a0d367b0ad61e0e
+      internalID: -1727599514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_160
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 48
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db111805c18309248a8cd270d80f4f5b
+      internalID: 974188376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_161
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 47
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82365250c1c32a9458397961255864f4
+      internalID: 655472223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_162
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 56
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc0325065fcf3c4a9a4f1b2e99b8e35
+      internalID: 1301867321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_outside_shadows_163
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 32
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebae17fe2b7c7d4ba8c03fc0a06ba60
+      internalID: -1283728536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      castle_outside_shadows_0: 1404655676
+      castle_outside_shadows_1: -230438011
+      castle_outside_shadows_10: -1913224595
+      castle_outside_shadows_100: 420334135
+      castle_outside_shadows_101: -258768834
+      castle_outside_shadows_102: 1003753287
+      castle_outside_shadows_103: -136258757
+      castle_outside_shadows_104: -642800460
+      castle_outside_shadows_105: -1608566758
+      castle_outside_shadows_106: 727660671
+      castle_outside_shadows_107: -1869621717
+      castle_outside_shadows_108: -1745445826
+      castle_outside_shadows_109: -377424763
+      castle_outside_shadows_11: 1866945596
+      castle_outside_shadows_110: -1011902396
+      castle_outside_shadows_111: 1506766240
+      castle_outside_shadows_112: 896868986
+      castle_outside_shadows_113: 2030028011
+      castle_outside_shadows_114: 2020016407
+      castle_outside_shadows_115: -1116727063
+      castle_outside_shadows_116: -18074966
+      castle_outside_shadows_117: 942180308
+      castle_outside_shadows_118: 1214249005
+      castle_outside_shadows_119: -223643402
+      castle_outside_shadows_12: -574194277
+      castle_outside_shadows_120: 750674940
+      castle_outside_shadows_121: -1586850118
+      castle_outside_shadows_122: 279079590
+      castle_outside_shadows_123: 232532823
+      castle_outside_shadows_124: -141985512
+      castle_outside_shadows_125: -972124381
+      castle_outside_shadows_126: 811231134
+      castle_outside_shadows_127: 469145728
+      castle_outside_shadows_128: 33602776
+      castle_outside_shadows_129: 1527237160
+      castle_outside_shadows_13: 1773245437
+      castle_outside_shadows_130: -344478414
+      castle_outside_shadows_131: -583774048
+      castle_outside_shadows_132: 1418676464
+      castle_outside_shadows_133: -976783607
+      castle_outside_shadows_134: -69553297
+      castle_outside_shadows_135: -42664903
+      castle_outside_shadows_136: -2107805953
+      castle_outside_shadows_137: 195038308
+      castle_outside_shadows_138: -1950725556
+      castle_outside_shadows_139: -705266362
+      castle_outside_shadows_14: 1146701326
+      castle_outside_shadows_140: 1994390587
+      castle_outside_shadows_141: -1919193798
+      castle_outside_shadows_142: -1764926889
+      castle_outside_shadows_143: -13932097
+      castle_outside_shadows_144: -1867210211
+      castle_outside_shadows_145: 1989740460
+      castle_outside_shadows_146: 442909596
+      castle_outside_shadows_147: 922510433
+      castle_outside_shadows_148: 411245094
+      castle_outside_shadows_149: -621990946
+      castle_outside_shadows_15: 49446290
+      castle_outside_shadows_150: 1557662138
+      castle_outside_shadows_151: -963692525
+      castle_outside_shadows_152: 1436522125
+      castle_outside_shadows_153: -1156908510
+      castle_outside_shadows_154: -1988228739
+      castle_outside_shadows_155: 1698237401
+      castle_outside_shadows_156: 1624991666
+      castle_outside_shadows_157: 894499226
+      castle_outside_shadows_158: -1670887931
+      castle_outside_shadows_159: -1727599514
+      castle_outside_shadows_16: 65346364
+      castle_outside_shadows_160: 974188376
+      castle_outside_shadows_161: 655472223
+      castle_outside_shadows_162: 1301867321
+      castle_outside_shadows_163: -1283728536
+      castle_outside_shadows_17: -1064451908
+      castle_outside_shadows_18: 353420756
+      castle_outside_shadows_19: -2107183247
+      castle_outside_shadows_2: -23594653
+      castle_outside_shadows_20: 1032737767
+      castle_outside_shadows_21: -1685204025
+      castle_outside_shadows_22: 1798589152
+      castle_outside_shadows_23: -2019826349
+      castle_outside_shadows_24: -1389120255
+      castle_outside_shadows_25: 1179150719
+      castle_outside_shadows_26: -1999076337
+      castle_outside_shadows_27: 1679000976
+      castle_outside_shadows_28: 1409585076
+      castle_outside_shadows_29: -400720967
+      castle_outside_shadows_3: -1487589334
+      castle_outside_shadows_30: 1435241546
+      castle_outside_shadows_31: 320899332
+      castle_outside_shadows_32: 814160037
+      castle_outside_shadows_33: 1204353585
+      castle_outside_shadows_34: -14655223
+      castle_outside_shadows_35: 1621394821
+      castle_outside_shadows_36: -1320700675
+      castle_outside_shadows_37: 357378036
+      castle_outside_shadows_38: -58752502
+      castle_outside_shadows_39: -542625444
+      castle_outside_shadows_4: -1578749103
+      castle_outside_shadows_40: 963747232
+      castle_outside_shadows_41: 36249742
+      castle_outside_shadows_42: 703989489
+      castle_outside_shadows_43: 412711493
+      castle_outside_shadows_44: 1814733561
+      castle_outside_shadows_45: 739790845
+      castle_outside_shadows_46: -2005353658
+      castle_outside_shadows_47: 824216615
+      castle_outside_shadows_48: 658083875
+      castle_outside_shadows_49: 137635162
+      castle_outside_shadows_5: -1881691083
+      castle_outside_shadows_50: -1531705761
+      castle_outside_shadows_51: 1915447696
+      castle_outside_shadows_52: 1450776991
+      castle_outside_shadows_53: 804138966
+      castle_outside_shadows_54: 2002847844
+      castle_outside_shadows_55: -1391686499
+      castle_outside_shadows_56: -1034687230
+      castle_outside_shadows_57: -1920171787
+      castle_outside_shadows_58: 173637534
+      castle_outside_shadows_59: -571180408
+      castle_outside_shadows_6: -131902711
+      castle_outside_shadows_60: -1364121665
+      castle_outside_shadows_61: 1490724580
+      castle_outside_shadows_62: 1352291260
+      castle_outside_shadows_63: 773994591
+      castle_outside_shadows_64: -947551192
+      castle_outside_shadows_65: 1432777201
+      castle_outside_shadows_66: 529315916
+      castle_outside_shadows_67: -1857492770
+      castle_outside_shadows_68: -98037650
+      castle_outside_shadows_69: 572927056
+      castle_outside_shadows_7: 936585796
+      castle_outside_shadows_70: -1217803311
+      castle_outside_shadows_71: -1953603614
+      castle_outside_shadows_72: -751413711
+      castle_outside_shadows_73: 916585540
+      castle_outside_shadows_74: -656808974
+      castle_outside_shadows_75: -1732703916
+      castle_outside_shadows_76: 247059730
+      castle_outside_shadows_77: -2089009135
+      castle_outside_shadows_78: 980015629
+      castle_outside_shadows_79: 2022740122
+      castle_outside_shadows_8: -433455052
+      castle_outside_shadows_80: 1671518943
+      castle_outside_shadows_81: -1857645240
+      castle_outside_shadows_82: -1745213255
+      castle_outside_shadows_83: 155315477
+      castle_outside_shadows_84: -1936587942
+      castle_outside_shadows_85: 1746441365
+      castle_outside_shadows_86: -1869403917
+      castle_outside_shadows_87: 1540264826
+      castle_outside_shadows_88: 39535994
+      castle_outside_shadows_89: -446104049
+      castle_outside_shadows_9: -568569993
+      castle_outside_shadows_90: -959037980
+      castle_outside_shadows_91: -162652085
+      castle_outside_shadows_92: 686127768
+      castle_outside_shadows_93: 1162025025
+      castle_outside_shadows_94: -384552045
+      castle_outside_shadows_95: 334262226
+      castle_outside_shadows_96: 488184171
+      castle_outside_shadows_97: 2025544079
+      castle_outside_shadows_98: 360687041
+      castle_outside_shadows_99: 697897355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
