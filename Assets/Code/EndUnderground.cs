@@ -7,7 +7,7 @@ public class EndUnderground : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("End_Underground");
+        SceneManager.LoadScene("EndUnderground");
     }
 
 }
