@@ -3537,9 +3537,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5727970979023911835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b589d0e99e4fba149ad4b7923f4474cb, type: 3}
+  m_Script: {fileID: 11500000, guid: ec6e974a3bf5b8244adda961f2180ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: EndUnderground
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
