@@ -1,0 +1,88 @@
+﻿title: Gohegdeh
+---
+<<declare $points to 3>>
+Gohegdeh: Hello, care to play a game?
+Gohegdeh: For every right move you make, I will tell you one thing you want to know.
+->No, thanks.
+    Gohegdeh: I don't care either way.
+->Sure.
+    Gohegdeh: Nice. 2 + 2?
+    -> 4, duh.
+        Gohegdeh: That was obvious. One point.
+    -> I don't know.
+        Gohegdeh: Ok.
+        <<stop>>
+    Gohegdeh: Who is our supreme leader?
+    ->Effarig?
+        Gohegdeh: That guy is nothing. Wrong choice.
+        <<stop>>
+    ->Goo.
+        Gohegdeh: Nice. Two points.
+    Gohegdeh: What type of human is Effargia?
+    ->Whale.
+        Gohegdeh: Really? I'm disappointed in you.
+        <<stop>>
+    ->Giraffe.
+        Gohegdeh: I said Effargia, not Effarig.
+        <<stop>>
+    ->Aigraffe.
+        Gohegdeh: Yes. Now, you can ask me 3 questions since you answered 3 of mine.
+        <<jump Questions>>
+===
+
+
+title: Questions
+---
+<<if $points == 0>>
+    <<jump Bye>>
+<<endif>>
+Gohegdeh: Questions left: {$points}
+->What's the deal with the "troubled ones"?
+    <<set $points -= 1>>
+    Gohegdeh: Did you hear that from the oldies?
+    Gohegdeh: They sure do love name calling.
+    Gohegdeh: We are the "troubled ones." The rebels that embrace the new way of living. Like the humans we saw on magazines.
+    Gohegdeh: Our leader, Regit, found 'magazines' of fashion. We embraced fashion.
+    Gohegdeh: Suits are so out of fashion.
+    <<jump Questions>>
+->Who does Effargia love?
+    <<set $points -= 1>>
+    Gohegdeh: Poor Regit thinks Effargia went back to the traditional folk because of her father.
+    Gohegdeh: But it's because of the one she loves.
+    Gohegdeh: That's as much as I'll tell you.
+    <<jump Questions>>
+->Why do you call yourselves "human"
+    <<set $points -= 1>>
+    Gohegdeh: What a dumb question.
+    Gohegdeh: It's obviously because we are human.
+    Gohegdeh: Not like that underwater clan, pink things on acid or whatever is going on in that desert.
+    Gohegdeh: But I understand it's your first time meeting real humans since you come from an underground bunker.
+    ->How do you know that.
+        Gohegdeh: Do you want to waste your question points on this?
+        ->Yes.
+            <<if $points == 0>>
+            Gohegdeh: Too bad you don't have any left.
+            <<stop>>
+            <<endif>>
+            <<set $points -= 1>>
+            Gohegdeh: I know everything.
+            Gohegdeh: I work with the omniscient frog.
+            Gohegdeh: You should watch out for your tribe, visitor.
+        ->No.
+            Gohegdeh: Thought so.
+    <<jump Questions>>
+->Where is the orb?
+    <<set $points -= 1>>
+    Gohegdeh: Effargia hid it somewhere near the entrance.
+    Gohegdeh: I would tell you the exact location, but I'm not feeling that generous today.
+    Gohegdeh: I will tell you this: The one that does not speak watches over it.
+    <<jump Questions>>
+===
+
+
+title: Bye
+---
+Gohegdeh: Good conversation. We won't see each other again.
+Gohegdeh: One last thing, I'm not Effargia's love interest. But my end is how it begins.
+Gohegdeh: Good day.
+===
