@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     int orb = 0;
     public int animalpoints = 0;
     private GameObject Effargia;
+    private GameObject currentTeleporter;
+    private bool isTeleporting = false; // Prevents immediate re-teleportation
 
     public DialogueRunner dialogueRunner;
 
@@ -22,6 +24,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] AudioSource menuMusic;
     [SerializeField] AudioSource SFXSource;
     [SerializeField] AudioClip orbCollected;
+    [SerializeField] Transform destination;
+    [SerializeField] private float teleportCooldown = 0.5f; // Cooldown time in seconds
 
     void Start()
     {
@@ -51,7 +55,9 @@ public class PlayerController : MonoBehaviour
         }
     
         if (animalpoints > 11)
+        {
             Effargia.SetActive(true);
+        }
     }
 
     void OnMove(InputValue value)
@@ -121,6 +127,37 @@ public class PlayerController : MonoBehaviour
                 collision.gameObject.SetActive(false);
         }
 
+
+        if (!isTeleporting && collision.gameObject.CompareTag("Teleporter"))
+        {
+            currentTeleporter = collision.gameObject;
+            StartCoroutine(Teleport());
+        }
+
+    }
+
+    private void OnTriggerExit2d(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Teleporter"))
+        {
+            if (collision.gameObject == currentTeleporter)
+            {
+                currentTeleporter = null;
+            }
+        }
+    }
+
+    private IEnumerator Teleport()
+    {
+        isTeleporting = true;
+
+        if (currentTeleporter != null)
+        {
+            rb.transform.position = currentTeleporter.GetComponent<Teleporter>().GetDestination().position;
+        }
+
+        yield return new WaitForSeconds(teleportCooldown);
+        isTeleporting = false;
     }
 
 }

@@ -9,6 +9,7 @@ TagManager:
   - Block_Collider_1
   - Orb
   - Effargia
+  - Teleporter
   layers:
   - Default
   - TransparentFX
