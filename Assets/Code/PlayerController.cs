@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Yarn.Unity;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -30,8 +31,11 @@ public class PlayerController : MonoBehaviour
         dialogueRunner.onDialogueStart.AddListener(FreezeMovement);
         dialogueRunner.onDialogueComplete.AddListener(UnfreezeMovement);
 
-        Effargia = GameObject.FindGameObjectWithTag("Effargia");
-        Effargia.SetActive(false);
+        if (SceneManager.GetActiveScene().name == "Defne")
+        {
+            Effargia = GameObject.FindGameObjectWithTag("Effargia");
+            Effargia.SetActive(false);
+        }
     }
  
 
