@@ -3,13 +3,13 @@ tags:
 ---
 <<declare $talk to false>>
 <<declare $vaish to false>>
-<<declare $defne to false>>
 <<declare $anam to false>>
+<<declare $defne to false>>
 <<declare $allison to false>>
 
 <<if $talk == false>>
     <<set $talk = true>>
-    Frog: *grumble* Hungry...
+Frog: *grumble* Hungry...
 -> What the... A creature in the overworld..? We were told the only living beings were us humans in the underground... Am I hallucinating again?
 Frog: Hm? Who dares trespass my territory? Identify yourself, strange creature!
 -> I'm a human, here on an expedition from the underground city.
@@ -29,51 +29,91 @@ Frog: *eyes you suspiciously, scanning you from top to bottom while grazing its 
 -> UM?? 
 -> Like what you see?
 Frog: It has been decades since I've had a proper meal... And if it is true that you are human, I feel no guilt gobbling you up here and now… 
--> No, please! I need to help my people! We're low on resources, and I'm their only hope of finding- 
+-> WAIT! Please, I need to help my people! We're low on resources, and I'm their only hope.
+Frog: Hmm. Perhaps I can help. But I require assistance in exchange.
+-> Really? Thank you! What do you need?
+Frog: My ancient power has long since been dispersed across four different nations, encased within glistening orbs. Once I consume each, I will be permanently satiated, the aches and groans of my stomach ceasing for eternity. You must fetch me each, and once my power is returned, I will bestow upon you the resources you require.
+-> Okay, sounds simple enough. Where should I go to find these?
+Frog: The first orb lies westward. Good luck, creature, and return with haste.
 
 <<else>>
-Frog: Come back once you've done something useful.
-->(I have to do something useful)
-    <<stop>>
-->I did! 
-    Frog: Really? Which area did you want to learn about incessant human? I will only talk about each ONCE. Choose carefully.
-        ->West (Desert) <<if $vaish == false>>
-            <<jump Vaish>>
-        ->East (Forest) <<if $defne == false>>
-            <<jump Defne>>
-        ->North (Sky) <<if $anam == false>>
-            <<jump Anam>>
-        ->South (Underwater) <<if $allison == false>>
-            <<jump Allison>>
-        ->I have nothing more to ask. <<if $vaish == true && $defne == true && $anam == true && $allison == true>>
-        Frog: I've said all I needed to say. You are alone from this point forwards. We will meet again in another life.
-        <<stop>>
-
+    <<jump Choices>>
 <<endif>>
 
 ===
 
-title: Vaish
---- 
-<<set $vaish to true>>
-Frog: Bla bla bla1
+title: Choices
+---
+Frog: Come back once you've done something useful.
+->(Don't say anything because you don't have any orbs yet)
+    <<stop>>
+->Shut up and look at this orb I got.
+    Frog: Incessant creature... Fine, which area did you get that from? I will only talk about each ONCE. Choose carefully.
+        ->West (Desert) <<if $vaish == false>>
+            <<jump Vaish>>
+        ->North (Sky) <<if $anam == false>>
+            <<jump Anam>>
+        ->East (Forest) <<if $defne == false>>
+            <<jump Defne>>
+        ->South (Underwater) <<if $allison == false>>
+            <<jump Allison>>
+        ->I have nothing more to ask. (This choice can be repeated)
+        Frog: I've said all I needed to say. You are alone from this point forwards. We will meet again in another life.
+        <<stop>>
 
 ===
 
-title: Defne
----
-<<set $defne to true>>
-Frog: Bla bla bla2
+
+
+title: Vaish
+--- 
+<<set $vaish to true>>
+Frog: Wow, a simple-minded creature such as yourself really managed to procure a sacred orb? I applaud you. Traversing the Sirocan nation is indeed no easy feat.
+-> No problem.
+Frog: I'm certain it was a problem for a creature of your intellectual capacity. Nevertheless, the next orb lies North, in a nation nested atop the clouds. Make haste.
+-> Ungrateful much.
+	Frog: Insolent creature. In no universe would a being as elevated as me be grateful to an insignificant ant like you. 
+    Frog: Nevertheless, the next orb lies North amongst the Bubbabobs, nested atop the clouds. Make haste.
 ===
 
 title: Anam
 ---
 <<set $anam to true>>
-Frog: Bla bla bla3
+Frog: Impressive work, creature. The Bubbabobs are an interesting, conniving bunch - it is surprising something as slow-minded as you managed to flee with the orb unscathed.
+-> Uh, thank you?
+Frog: You're very much welcome, lowly creature. Now, you must prepare to retrieve the third orb. It lies eastward, in a nation flourishing with vegetation.
+-> Dial down the sass, will you?
+	Frog: Perhaps I will consider than when you "dial down" that putrid stench of yours. Now, there is no time for dilly-dallying. 
+    Frog: You must prepare to retrieve the third orb. It lies eastward, in a nation flourishing with vegetation.
 ===
+
+title: Defne
+---
+<<set $defne to true>>
+Frog: Finally, you have arrived. It took you quite a while. Although, considering both the Hayven's social nature and your dim-wittedness, the wait is understandable.
+-> *sigh* Just take the orb.
+	Frog: Do not order me around, creature. I am the one who calls the shots. On that note, you must go and retrieve the last orb. I'm sure even someone of your low intellectual ability can use context clues to determine which direction it is.
+	-> Yeah yeah, I got it.
+		Frog: Good. Now go, and do not delay.
+	-> Umm..
+		Frog: Oh heavens above. Never would I ever dream that a creature such as this could exist, living and breathing on this planet, with an IQ below that of room temperature. 
+        Frog: How you managed to navigate the Overworld thus far is truly a mystery. *sigh* The orb lies South. Now go, before your stupidity angers me further.
+===
+
 
 title: Allison
 ---
 <<set $allison to true>>
-Frog: Bla bla bla4
+(YOU'VE UNLOCKED A SECRET DIALOGUE BECAUSE YOU REFUSE TO FOLLOW THE FLOW OF THE GAME!)
+(YOU'VE LOST THE FROG'S RESPECT BECAUSE OF THIS ACHIEVEMENT, HOPE IT WAS WORTH IT)
+Frog: You little- How dare you lie to an omniscient being such as myself?!
+Frog: You- you- now you've angered me!
+-> Froggy?
+    Frog: I can burn you in 9 different types of fire with the flick of my finger. 
+    Frog: But I won't, because worse it coming your way.
+    Frog: Get out of my sight.
+->I apologize.
+    Frog: ...
+    Frog: Nonetheless, you lost my guidance. You are alone for this area. 
+    Frog: Hopefully you will drown and that old-fashioned diving suit once you meet the Holoderms. 
 ===
