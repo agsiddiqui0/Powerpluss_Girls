@@ -1,7 +1,15 @@
 ﻿title: Frog
 tags:
 ---
-Frog: *grumble* Hungry...
+<<declare $talk to false>>
+<<declare $vaish to false>>
+<<declare $defne to false>>
+<<declare $anam to false>>
+<<declare $allison to false>>
+
+<<if $talk == false>>
+    <<set $talk = true>>
+    Frog: *grumble* Hungry...
 -> What the... A creature in the overworld..? We were told the only living beings were us humans in the underground... Am I hallucinating again?
 Frog: Hm? Who dares trespass my territory? Identify yourself, strange creature!
 -> I'm a human, here on an expedition from the underground city.
@@ -23,4 +31,49 @@ Frog: *eyes you suspiciously, scanning you from top to bottom while grazing its 
 Frog: It has been decades since I've had a proper meal... And if it is true that you are human, I feel no guilt gobbling you up here and now… 
 -> No, please! I need to help my people! We're low on resources, and I'm their only hope of finding- 
 
+<<else>>
+Frog: Come back once you've done something useful.
+->(I have to do something useful)
+    <<stop>>
+->I did! 
+    Frog: Really? Which area did you want to learn about incessant human? I will only talk about each ONCE. Choose carefully.
+        ->West (Desert) <<if $vaish == false>>
+            <<jump Vaish>>
+        ->East (Forest) <<if $defne == false>>
+            <<jump Defne>>
+        ->North (Sky) <<if $anam == false>>
+            <<jump Anam>>
+        ->South (Underwater) <<if $allison == false>>
+            <<jump Allison>>
+        ->I have nothing more to ask. <<if $vaish == true && $defne == true && $anam == true && $allison == true>>
+        Frog: I've said all I needed to say. You are alone from this point forwards. We will meet again in another life.
+        <<stop>>
+
+<<endif>>
+
+===
+
+title: Vaish
+--- 
+<<set $vaish to true>>
+Frog: Bla bla bla1
+
+===
+
+title: Defne
+---
+<<set $defne to true>>
+Frog: Bla bla bla2
+===
+
+title: Anam
+---
+<<set $anam to true>>
+Frog: Bla bla bla3
+===
+
+title: Allison
+---
+<<set $allison to true>>
+Frog: Bla bla bla4
 ===
