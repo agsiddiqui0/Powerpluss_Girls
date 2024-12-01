@@ -1185,16 +1185,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 5
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
@@ -1207,8 +1197,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 9ca1a95c4d7f6de42b466412a09e374d, type: 2}
   - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: d2c10eb6ce88405409c83fb51ffd279f, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: eb1ba37e1288f634cb76a1ec6712c38c, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: dcb569e5badf357498c70c12e0036cea, type: 2}
   m_TileSpriteArray:
@@ -1218,8 +1208,8 @@ Tilemap:
     m_Data: {fileID: -1487589334, guid: 9b92884d5534ef24588846d3ef05a21d, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -508446573, guid: 0aef5fe6087945b46bdb0dbc883d8f12, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1727599514, guid: 9b92884d5534ef24588846d3ef05a21d, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 173637534, guid: 9b92884d5534ef24588846d3ef05a21d, type: 3}
   - m_RefCount: 1
@@ -1229,7 +1219,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 605687406, guid: f3da1ac6ed88ef3488c6084bfb2e77d0, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 26
+  - m_RefCount: 25
     m_Data:
       e00: 1
       e01: 0
@@ -1248,7 +1238,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 26
+  - m_RefCount: 25
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
@@ -10487,7 +10477,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1343515870488138895, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1518648216099074158, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
       propertyPath: dialogueRunner
