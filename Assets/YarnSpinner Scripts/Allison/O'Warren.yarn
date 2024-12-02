@@ -1,0 +1,15 @@
+﻿title: O'Warren
+tags:
+---
+O'Warren: Can you believe how excited Porty is for a dumb museum?
+->Well that's a bit un"warren"ted if you ask me.
+    O'Warren: How do you know my name? Creep.
+->Why did you go with him then?
+    <<jump continue>>
+===
+
+title: continue
+---
+O'Warren: Well to be honest the museum isn't thaaat dumb.
+O'Warren: I'd rather play fisheogames but it made him happy for me to go with him so here I am.
+===

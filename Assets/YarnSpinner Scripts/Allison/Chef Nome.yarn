@@ -1,0 +1,19 @@
+﻿title: Chef_Nome
+tags:
+---
+Chef_Nome: Good golly, are you here for some fresh baked polyps?
+->Yea
+    Chef_Nome: Bad bolly, no can do today I'm humdrummed to say. With the opening of the museum soon they shut down all non-essential businesses.
+    Chef_Nome: It's to bundley-up all holoderm eyeballs or photorecptors onto the museum. "No distractions" the curator says.
+    Chef_Nome: I hate to be one to bring the bundle of downer giblets to you, we will be open tomorrow though!
+        -> Awesome! What polyps do you reccomend? 
+            Chef_Nome: The mushroom coral pizza for one is splendid!
+            Chef_Nome: I also must spectacularate the stewdusa, although my blabberabbering on my very own cooking does sounds a bit silly.
+            Chef_Nome: If you want customer opiniviews, just ask around!
+        -> Darn, I think I'll be leaving by tomorrow, maybe I can try your polyps some other day!
+            Chef_Nome: Splendid sounds to reach my sensory organs! I do hope to see such a fine lady again!
+->Nah
+    Chef_Nome: Sparkling rarity for me to say, but for a limited time today, that is good news! We are forbidden to open any non-essential businesses today.
+    Chef_Nome: If you're briefing a stop to our quaint village, sorry to give you the downer giblets, but not much is open.
+    Chef_Nome: Try the museum though! I hope good "tide"ings follow your exploration there!
+===

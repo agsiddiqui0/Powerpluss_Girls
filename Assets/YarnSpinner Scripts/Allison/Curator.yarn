@@ -1,0 +1,26 @@
+﻿title: Curator
+tags:
+---
+<<declare $capture = false>>
+Curator: Why I have never seen such a strange creature before.
+->Ok, a little rude, but are you the curator?
+    Curator: Why yes, you think any of these other slobs could possibly have the refinement to handle art and history?
+    Curator: Truly though, I have never seen something like you before, where are you from?
+        ->I'm from underground, I came out to explore and find special orbs.
+            Curator: Special orbs...that sounds like a good addition to my museum, (and so do you)
+        ->I'm from elsewhere, do you know anything about a special orb?
+            Curator: Special orbs...that sounds like a good addition to my museum, (and so do you)
+->Yea I'm from deep underground, so forgive me if I don't fit your expectations. Do you know anything about an orb?
+    Curator: Quite fascinating, and I might have something in mind, at the very museum of my charge. (If you want it so badly, you can be a good addition to the collection)
+Curator: As you know, I curate the many splendors decorating this wonderous museum. Today is the grand opening of my magnificent museum. Truly, a labor of, um, love and lots of labor.
+Curator: It is a rare sight to see newcomers in this village, so I give thanks for the opportunity to gloat some more. 
+Curator: So what exactly is this place you come from?
+    ->I hail from a society that has been underground in hiding. Can we please go back to the orb though?
+        Curator: Hmph, incredibly RUDE. How DARE you interrupt the Curator. You will be much nicer when on display! 
+        <<set $capture = true>>
+    -> I hail from a society that has been underground in hiding. We haven't come up in a long time, I'm one of the first.
+        Curator: Oh this is incredibly fascinating. An underground civilization in hiding? So specimens like you must be scarce; you're one of a kind in this kingdom...
+        Curator: That's IT. Although I hate cutting conversations about myself short, I MUST have you in my collection!
+        <<set $capture = true>>
+
+===
