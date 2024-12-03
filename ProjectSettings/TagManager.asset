@@ -13,6 +13,9 @@ TagManager:
   - Bubbabob
   - Block_Collider_2
   - Block_Collider_3
+  - Curator
+  - tele
+  - tellOFF
   layers:
   - Default
   - TransparentFX

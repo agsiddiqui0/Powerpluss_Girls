@@ -13,9 +13,14 @@ public class PlayerController : MonoBehaviour
     const int speed = 4;
     public bool movementEnabled = true;
     int orb = 0;
+    public bool curatetalk = false;
+    private GameObject tele;
+    private GameObject tele1;
+    private GameObject tele2;
     public int animalpoints = 0;
     public int bubbaPoints = 0;
     private GameObject Effargia;
+    private GameObject tellON;
     private GameObject currentTeleporter;
     private bool isTeleporting = false; // Prevents immediate re-teleportation
 
@@ -41,13 +46,19 @@ public class PlayerController : MonoBehaviour
             Effargia = GameObject.FindGameObjectWithTag("Effargia");
             Effargia.SetActive(false);
         }
+
+
+
     }
  
 
     // Update is called once per frame
     void Update()
     {
-         if (movementEnabled) 
+        tele = GameObject.Find("MuseumTele (2)");
+        tele1 = GameObject.Find("MuseumTele (1)");
+        tele2 = GameObject.Find("MuseumTele");
+        if (movementEnabled) 
          {
             rb.velocity = new Vector2(speed * movementVector.x, speed * movementVector.y);
 
@@ -59,6 +70,11 @@ public class PlayerController : MonoBehaviour
         {
             Effargia.SetActive(true);
         }
+
+        
+
+
+
     }
 
     void OnMove(InputValue value)
@@ -113,10 +129,30 @@ public class PlayerController : MonoBehaviour
             SFXSource.PlayOneShot(orbCollected);
             Debug.Log("Orbs Obtained: " + orb);
         }
-        
-        
+
+        if (collision.gameObject.CompareTag("Curator"))
+        {
+
+            // tele = GameObject.Find("MuseumTele (2)");
+            tele.transform.position = new Vector2(18, 43);
+            tele1.transform.position = new Vector2(0, 32);
+            tele2.transform.position = new Vector2(-14, 45);
+
+            Debug.Log("CT status: " + curatetalk);
+        }
+        if (collision.gameObject.CompareTag("tellOFF"))
+        {
+            tele.transform.position = new Vector2(-200, -50);
+            tele1.transform.position = new Vector2(-200, 0);
+            tele2.transform.position = new Vector2(-200, 30);
+            
+
+            Debug.Log("CT status: " + curatetalk);
+        }
+
         if (collision.gameObject.CompareTag("Suit_Animal"))
         {
+           
             animalpoints++;
             Debug.Log("Animal points: " + animalpoints);
         }
