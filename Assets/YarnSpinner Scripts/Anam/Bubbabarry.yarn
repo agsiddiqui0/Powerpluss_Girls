@@ -1,10 +1,9 @@
-﻿//Region 1 NPC 3 Dialogue
-
+﻿
 title: Bubbabarry
 ---
 <<if visited("Bubbabarry") >>
 Bubbabarry: See ya pal!
-
+<<stop>>
 <<endif>>
 
 Bubbabarry: Howdy! How's it goin' partner?
