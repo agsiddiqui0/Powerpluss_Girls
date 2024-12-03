@@ -1,6 +1,11 @@
 ﻿title: Gohegdeh
 ---
-<<declare $points to 3>>
+<<if visited("Gohegdeh")>>
+Gohegdeh: I said all I wanted to say.
+<<stop>>
+<<endif>>
+<<declare $points to 0>>
+
 Gohegdeh: Hello, care to play a game?
 Gohegdeh: For every right move you make, I will tell you one thing you want to know.
 ->No, thanks.
@@ -9,25 +14,24 @@ Gohegdeh: For every right move you make, I will tell you one thing you want to k
     Gohegdeh: Nice. 2 + 2?
     -> 4, duh.
         Gohegdeh: That was obvious. One point.
+        <<set $points += 1>>
     -> I don't know.
         Gohegdeh: Ok.
-        <<stop>>
     Gohegdeh: Who is our supreme leader?
     ->Effarig?
         Gohegdeh: That guy is nothing. Wrong choice.
-        <<stop>>
     ->Goo.
-        Gohegdeh: Nice. Two points.
+        Gohegdeh: You've listened to others, good for you.
+        <<set $points += 1>>
     Gohegdeh: What type of human is Effargia?
     ->Whale.
         Gohegdeh: Really? I'm disappointed in you.
-        <<stop>>
     ->Giraffe.
         Gohegdeh: I said Effargia, not Effarig.
-        <<stop>>
     ->Aigraffe.
-        Gohegdeh: Yes. Now, you can ask me 3 questions since you answered 3 of mine.
-        <<jump Questions>>
+        <<set $points += 1>>
+        Gohegdeh: Yes. Now, you can ask me {$points} questions since you answered {$points} of mine.
+<<jump Questions>>
 ===
 
 
