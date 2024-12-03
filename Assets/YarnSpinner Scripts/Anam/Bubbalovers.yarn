@@ -2,14 +2,21 @@
 
 title: Bubbalovers
 ---
+<<if visited("Bubbalovers") >>
+Bubbabertha: What're you dilly-dallyin' for? Head on over and enjoy the ceremony!
+<<stop>>
+<<endif>>
 Bubbabertha: Oh honey, you're such a comedian, you! HAHAHAA!!
 Bobbilly: HAHAHAA!! Nothin' makes my day better than makin' my honey laugh! Other than the worshipping the storm lord of course, HAHAHAA!!
-Bubbabertha: Oh hey there partner! What brings you around these parts?
+Bubbabertha: Oh hey there partner! Hmm, that's an awfully unique getup you got goin' on... Where're you from?
+-> I'm a human from an underground city! A wierd looking frog sent me here to, uh, explore.
+Bobbilly: Human? HAHAHAA!! Nice one!! Though I guess I can buy the "underground" part from that suit of yours... Anyway, what're you here to "explore" 'round these parts, partner? An awfully long ways from the underground to get here, I'd bet!! HAHAHAA!!
 -> I heard there's a festival going on involving a "sky orb", can you tell be a bit about it?
 Bobbilly: Why of course, you've come to the right person HAHAHAA!! My big bro is actually part of the choir for the orb ceremony! The sky orb is a glistening, magical gift from the storm lord to ward off negative energies and in turn, bad weather!
 Bubbabertha: Yup, it's important to stay full of glee durin' it too! Once lil' Bubbabecky was cryin' during the ceremony, and acid rain hit that wiped out half our population, HAHAHAA!!
-Bobbilly: True that, HAHAHAA!! What a chaotic day that was! We lost lil' Bubbabecky and a few others from that too! 
-Bubbabertha: Thoughts and prayers! I know they're lookin' up at us with a big ol' smile!
+Bobbilly: True that, HAHAHAA!! What a chaotic day that was! We lost lil' Bubbabecky and a few others from that too! If only they didn't touch the darn sky gem, HAHAHAA!!
+Bubbabertha: Thoughts and prayers! I know they're lookin' up at us with a big ol' smile! Had it comin' for messin' with the storm lord!!
 ->(Damn…)
 ->Thanks for your help!
+
 ===

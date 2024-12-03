@@ -1,7 +1,11 @@
 ﻿//Attatched to Region 1 NPC 1
 title: BubbaTwins
 ---
-
+<<if visited("BubbaTwins") >>
+Bobbina: Nice talkin' to ya hun!
+Bobby: Be sure to check out the festival, partner! The ceremony sure could use your hearty lil' laugh to power up the storm lord's sacred gem!
+<<stop>>
+<<endif>>
 Bobbina: Oh lookie! We have a guest! What are you, strange lookin' fella?
 Bobby: Oh boy oh boy! How do ya do, partner? 
 -> I'm a human! Though based on experience, I'm sure you guys consider yourselves human as well.

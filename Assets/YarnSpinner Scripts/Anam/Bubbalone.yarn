@@ -2,7 +2,10 @@
 
 title: Bubbalone
 ---
-
+<<if visited("Bubbalone") >>
+Bubbabarry: She loves me... She loves me not... Hahaha...
+<<stop>>
+<<endif>>
 Bubbalone: hahaha… I wonder if she really cared about me… hahaha…
 Bubbalone: AH! Hey there partner!! Just so ya know, I wasn't feeling sad, dejected, or nothin'! I'm chilling HAHAHAA!!! Just chilling…
 -> I mean, its fine to feel sad sometimes. You shouldn't hold your feelings-
