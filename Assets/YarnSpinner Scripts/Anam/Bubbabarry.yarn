@@ -2,6 +2,11 @@
 
 title: Bubbabarry
 ---
+<<if visited("Bubbabarry") >>
+Bubbabarry: See ya pal!
+
+<<endif>>
+
 Bubbabarry: Howdy! How's it goin' partner?
 ->I'm doin' alright, how about you?
 Bubbabarry: Oh I uh… I'm doin' good, thank you partner! I've been asked that a grand total of ONE times HAHAHAA!! It's always "what's ol' unc Bubbabarry doin'" and never "hows ol' unc Bubbabarry is doin'" HAHAHAA!! 
