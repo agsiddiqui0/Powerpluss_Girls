@@ -11,6 +11,7 @@ TagManager:
   - Effargia
   - Teleporter
   - Bubbabob
+  - Block_Collider_2
   layers:
   - Default
   - TransparentFX
