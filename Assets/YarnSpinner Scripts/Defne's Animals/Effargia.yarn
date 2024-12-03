@@ -1,5 +1,23 @@
 ﻿title: Effargia
 ---
+<<if $gor == true>>
+<<jump Gorilla>>
+<<endif>>
+
+<<if visited ("Effargia")>>
+<<jump Guess>>
+<<endif>>
+
+<<declare $bruin to false>>
+<<declare $croc to false>>
+<<declare $cobra to false>>
+<<declare $oct to false>>
+<<declare $kipri to false>>
+<<declare $gor to false>>
+<<declare $kap to false>>
+<<declare $turt to false>>
+<<declare $peng to false>>
+
 Effargia: Sup. Are you a visitor? I have never seen a creature like you from other tribes.
 -> You talk normal.
     Effargia: Yeah. Those suit-wearing dummies don't keep up with the times.
@@ -12,7 +30,13 @@ Effargia: ...
 Effargia: Yes, I, the great Effargia has a crush.
 Effargia: ...
 Effargia: Hey, I have an idea.
-Effargia: Figure out if they like me back.
+<<jump Guess>>
+===
+
+
+title: Guess
+---
+Effargia: Can you find out if they like me back? I will tell you where the orb is.
 ->Who?
     Effargia: Uh, I'm obviously not going to say their name out loud.
     Effargia: Go figure it out yourself.
@@ -20,39 +44,82 @@ Effargia: Figure out if they like me back.
     <<jump Love>>
 ===
 
-
 title: Love
 ---
-Effargia: Finally! Who is it if you're so sure?
-->Bruin
-    Effargia: Ew.
-    <<jump Love>>
-->Crocodile
-    Effargia: Ew.
-    <<jump Love>>
-->Cobra
-    Effargia: Ew.
-    <<jump Love>>
-->Octopus
-    Effargia: Ew.
-    <<jump Love>>
-->Hedgehog
-    Effargia: Ew.
-    <<jump Love>>
-->Gorilla
-    Effargia: Ew...
-    Effargia: ...actually...
-    Effargia: Ugh. Whatever. Take your stupid sphere and get out. 
-    Effargia: I hid it at trees near the enterance. 
-->Tiger
-    Effargia: Ew.
-    <<jump Love>>
-->Turtle
-    Effargia: Ew.
-    <<jump Love>>
--> Penguin
-    Effargia: Ew.
-    <<jump Love>>
+Effargia: Finally! Who do you think I like?
+->Bruin <<if $bruin == false>>
+        Effargia: Ew.
+        Effargia: That guy reminds me of school for some reason, no thanks.
+        <<set $bruin to true>>
+        <<jump Love>>
+->Crocodile <<if $croc == false>>
+        Effargia: Ew.
+        <<set $croc to true>>
+        <<jump Love>>
+->Cobra <<if $cobra == false>>
+        Effargia: I like her, but as a friend.
+        <<set $cobra to true>>
+        <<jump Love>>
+->Octopus <<if $oct == false>>
+        Effargia: Ew.
+        <<set $oct to true>>
+        <<jump Love>>
+->Hedgehog <<if $kipri == false>>
+        Effargia: Ew.
+        <<set $kipri to true>>
+        <<jump Love>>
+->Gorilla <<if $gor == false>>
+        Effargia: Ew...
+        Effargia: ...actually...
+        Effargia: Tell you what, I will tell you where the sphere is.
+        ->Erm, actually it's an orb.
+            Effargia: ...
+            Effargia: ................
+            Effargia: I hate nerds.
+            Effargia: But still, I will tell you where it is.
+        ->Why would you do that?
+            Effargia: Because you helped me.
+            Effargia: And I am the next in line, I should be a gracious leader. 
+        ->Yes, please tell me. This quest is stupid.
+            Effargia: You face is stupid.
+            Effargia: But still, I will tell you where it is.
+        Effargia: I hid it somewhere near the trees in the middle.
+        Effargia: Look, I know I'm not exactly nice but...
+        Effargia: If you could ask Allirog whether he likes me back, I would appreciate it.
+        <<set $gor to true>>
+        <<stop>>
+->Tiger <<if $kap == false>>
+        Effargia: Haha! 
+        Effargia: I'm already over that loser.
+        <<set $kap to true>>
+        <<jump Love>>
+->Turtle <<if $turt == false>>
+        Effargia: Ewwwww.
+        Effargia: That guy is older than my dad.
+        <<set $turt to true>>
+        <<jump Love>>
+-> Penguin <<if $peng == false>>
+        Effargia: Ew.
+        <<set $peng to true>>
+        <<jump Love>>
 ->Give Me More Time
-    Effargia: Ugh, whatever.
+        Effargia: Ugh, whatever.
+        <<stop>>
 ===
+
+title: Gorilla
+---
+Effargia: You... you actually came back!
+Effargia: What did he say?
+    ->He likes you too.
+    Effargia: O.M.G. This is great!
+    Effargia: Also, I lied...
+    Effargia: The orb is hidden BEHIND THE BUSHES NEAR THE ENTERANCE.
+        ->Wow. Just wow.
+            Effargia: Don't hate the NPC, hate the game. 
+            Effargia: But all's well that ends well, right?
+        ->No worries. I have the orb already. 
+            Effargia: You do? So you helped be just 'cause?
+            Effargia: I wasn't going to invite you to me wedding, but now I might.
+===
+
