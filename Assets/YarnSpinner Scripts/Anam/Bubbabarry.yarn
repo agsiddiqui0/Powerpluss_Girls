@@ -1,0 +1,27 @@
+﻿//Region 1 NPC 3 Dialogue
+
+title: Bubbabarry
+---
+Bubbabarry: Howdy! How's it goin' partner?
+->I'm doin' alright, how about you?
+Bubbabarry: Oh I uh… I'm doin' good, thank you partner! I've been asked that a grand total of ONE times HAHAHAA!! It's always "what's ol' unc Bubbabarry doin'" and never "hows ol' unc Bubbabarry is doin'" HAHAHAA!! 
+-> Oh, I'm sorry.
+Bubbabarry: NO! HAHA No no no, don't be sorry partner… All jokes, all jokes! I swear… *clears throat* I hope I didn't make you feel or think nun' negative, hahaha… How bout we scratch that and I tell you a joke!
+Bubbabarry: Why did the chicken cross the road?
+-> Why?
+	Bubbabarry: 'Cause he wanted to escape from this hell!!! HAHAHAA!!!
+	-> Oh…
+	Bubbabarry: Crap, I done did it again… *cough* HAHAHAA!! Just jokes again!! How bout you just crack a lil' laugh, huh? For ol' unc Bubbabarry?
+	-> Hahaha…
+-> To get to the other side?
+	Bubbabarry: You got it!! He wanted to escape from this hell!!! HAHAHAA!!!
+		-> HAHAHA!!
+-> To find orbs for a strange, rude frog with mystery powers?
+	Bubbabarry: HAHAHAA!! Haven't heard a guess that wild in ages! But it's really 'cause he wanted to escape from this hell! HAHAHAA!!
+	-> Oh…
+	Bubbabarry: Crap, I done did it again… *cough* HAHAHAA!! Just jokes again!! How bout you just crack a lil' laugh, huh? For ol' unc Bubbabarry?
+	-> Hahaha…
+Bubbabarry: Glad I could make ya laugh pal! Just spreading love and joy, ain't no salt, vinegar, and ESPECIALLY nothin' sinister 'round these parts, HAHAHAA!! (that should even the scales a bit… just need a few more to fill my quota…)
+
+===
+

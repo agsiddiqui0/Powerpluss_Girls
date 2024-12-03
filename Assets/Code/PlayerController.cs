@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public bool movementEnabled = true;
     int orb = 0;
     public int animalpoints = 0;
+    public int bubbaPoints = 0;
     private GameObject Effargia;
     private GameObject currentTeleporter;
     private bool isTeleporting = false; // Prevents immediate re-teleportation
@@ -119,12 +120,24 @@ public class PlayerController : MonoBehaviour
             animalpoints++;
             Debug.Log("Animal points: " + animalpoints);
         }
+        if (collision.gameObject.CompareTag("Bubbabob"))
+        {
+            bubbaPoints++;
+            Debug.Log("Bubba points: " + bubbaPoints);
+        }
 
-       
         if (collision.gameObject.CompareTag("Block_Collider_1"))
         {
             if (animalpoints >= 7)
                 collision.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.CompareTag("Block_Collider_2") && bubbaPoints >= 2)
+        {
+               collision.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.CompareTag("Block_Collider_3") && bubbaPoints >= 4)
+        {
+            collision.gameObject.SetActive(false);
         }
 
 

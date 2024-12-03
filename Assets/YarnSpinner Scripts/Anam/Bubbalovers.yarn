@@ -1,0 +1,15 @@
+﻿//Region 2 NPC Dialogue attached to Region 2 NPC 1
+
+title: Bubbalovers
+---
+Bubbabertha: Oh honey, you're such a comedian, you! HAHAHAA!!
+Bobbilly: HAHAHAA!! Nothin' makes my day better than makin' my honey laugh! Other than the worshipping the storm lord of course, HAHAHAA!!
+Bubbabertha: Oh hey there partner! What brings you around these parts?
+-> I heard there's a festival going on involving a "sky orb", can you tell be a bit about it?
+Bobbilly: Why of course, you've come to the right person HAHAHAA!! My big bro is actually part of the choir for the orb ceremony! The sky orb is a glistening, magical gift from the storm lord to ward off negative energies and in turn, bad weather!
+Bubbabertha: Yup, it's important to stay full of glee durin' it too! Once lil' Bubbabecky was cryin' during the ceremony, and acid rain hit that wiped out half our population, HAHAHAA!!
+Bobbilly: True that, HAHAHAA!! What a chaotic day that was! We lost lil' Bubbabecky and a few others from that too! 
+Bubbabertha: Thoughts and prayers! I know they're lookin' up at us with a big ol' smile!
+->(Damn…)
+->Thanks for your help!
+===
