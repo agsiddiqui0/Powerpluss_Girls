@@ -1,5 +1,14 @@
 ﻿title: Allirog
 ---
+<<declare $love to false>>
+<<if visited ("Allirog")>>
+    <<set $love to true>>
+<<endif>>
+<<if $confess == true>>
+    Allirog: I do not wish to be bothered anymore.
+<<endif>>
+
+<<declare $confess to false>>
 Allirog: Wish for love, I.
 Allirog: Happiness, with...
 Allirog: ...
@@ -7,5 +16,11 @@ Allirog: Cannot dream, for am simple human, I.
 -> Happiness?
     Allirog: Have dreams, I.
     Allirog: Lead humans, with love.
+-> Do you like Effargia? <<if $love == true>>
+    Allirog: WHAT?
+    Allirog: I... I... 
+    Allirog: Will speak to Miss Effargia about my feelings when brave enough, I am.
+    <<set $confess to true>>
 -> (Don't bother Allirog anymore)
+
 ===
