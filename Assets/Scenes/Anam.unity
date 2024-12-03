@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 164831368}
   m_Layer: 3
   m_Name: Block Collider 2
-  m_TagString: Block_Collider_1
+  m_TagString: Block_Collider_2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

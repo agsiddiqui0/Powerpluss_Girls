@@ -12,6 +12,7 @@ TagManager:
   - Teleporter
   - Bubbabob
   - Block_Collider_2
+  - Block_Collider_3
   layers:
   - Default
   - TransparentFX
