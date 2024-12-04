@@ -9,6 +9,12 @@ tags:
 
 <<if $talk == false>>
     <<set $talk = true>>
+Frog: Hmm.. Have I seen you before?
+->Yes.
+    Frog: Oh, I remember now. You're just so easily forgettable.
+    <<jump Choices>>
+->No.
+
 Frog: *grumble* Hungry...
 -> What the... A creature in the overworld..? We were told the only living beings were us humans in the underground... Am I hallucinating again?
 Frog: Hm? Who dares trespass my territory? Identify yourself, strange creature!
