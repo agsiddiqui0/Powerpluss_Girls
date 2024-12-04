@@ -1,7 +1,10 @@
 ﻿title: Sarai
 tags:
 ---
-<<if visited("AshaaraPostSarai") and visited("Sarai")>>
+<<if visited("Tethra")>>
+Sarai: The storm disappeared. What in Nymir's name is going on?
+<<stop>>
+<<elseif visited("AshaaraPostSarai") and visited("Sarai")>>
 Sarai: I have no idea what happened!
 Sarai: All the water suddenly drained through that hole!
 <<stop>>

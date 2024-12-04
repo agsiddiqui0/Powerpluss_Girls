@@ -1,5 +1,23 @@
 ﻿title: Barrels
 tags:
 ---
-
+<<if visited("Barrels")
+: ALL HAIL ZEPHYROS!
+<<stop>>
+<<endif>>
+: You eavesdrop on some people talking. 
+Tethryn: Excellent work, guys. The plan went smoothly.
+Tethryn: All the water has been stored in these boxes and is ready to be exported.
+Ravik: Think of all the money we're going to make when we sell all this Holy water.
+Kira: It really was perfect timing that that monster came. 
+Tethryn: Yes, the outsider will take all the blame, and the Chief won't suspect a thing.
+Talin: Finally, all these Nymir-lovers will be wiped out by the drought, and Zephyros can be set free.
+Ravik: Zephyros is the true god. He protects us with his dust storm. 
+Talin: Yes, Zephyros gave me comfort when my wife left me. Zephyros and milk are all I have left.
+Kira: I just want to see the world consumed in dust and destruction. 
+Tethryn: All hail Zephyros!
+: ALL HAIL ZEPHYROS!
+: ALL HAIL ZEPHYROS!
+: ALL HAIL ZEPHYROS!
+-> Oh no, I never expected this. I should go back and warn the others!
 ===

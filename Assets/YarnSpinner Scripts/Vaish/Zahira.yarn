@@ -1,7 +1,11 @@
 ﻿title: Zahira
 tags:
 ---
-<<if visited("Zahira")>>
+<<if visited("Tethra")>>
+Zahira: How am I supposed to protect my child with no water?
+Zahira: It's over for us all. 
+<<stop>>
+<<elseif visited("Zahira")>>
 Zahira: Shoo! Poor people with no money should stay away! 
 <<stop>>
 <<endif>>

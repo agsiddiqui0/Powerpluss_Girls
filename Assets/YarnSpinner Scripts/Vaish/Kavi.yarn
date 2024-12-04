@@ -1,7 +1,10 @@
 ﻿title: Kavi
 tags:
 ---
-<<if visited("Kavi")>>
+<<if visited("Tethra")>>
+Kavi: No water! No water! Hehehehe!
+<<stop>>
+<<elseif visited("Kavi")>>
 Kavi: Your shoes are untied!
 -> But I don’t have laces…
 -> No, your shoes are untied!
