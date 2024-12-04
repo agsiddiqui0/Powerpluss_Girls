@@ -139,13 +139,15 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D (Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Orb"))
+        if (collision.gameObject.CompareTag("Orb") || collision.gameObject.CompareTag("AppearOrb"))
         {
             collision.gameObject.SetActive(false);
             orb++;
             SFXSource.PlayOneShot(orbCollected);
             Debug.Log("Orbs Obtained: " + orb);
         }
+    
+
 
         if (collision.gameObject.CompareTag("Sarai"))
         {      
@@ -157,12 +159,24 @@ public class PlayerController : MonoBehaviour
         {
             // Find all GameObjects with the tag "appear"
             GameObject[] objectsToAppear = GameObject.FindGameObjectsWithTag("Appear");
-
             // Loop through each object and set it active
             foreach (GameObject obj in objectsToAppear)
             {
                 obj.SetActive(true);
             }
+            GameObject appearOrb = GameObject.FindWithTag("AppearOrb");
+            if (appearOrb != null)
+            {
+                appearOrb.SetActive(true);
+            }
+
+            GameObject[] objectsToDisappear = GameObject.FindGameObjectsWithTag("Disappear");
+            // Loop through each object and set it active
+            foreach (GameObject obj in objectsToDisappear)
+            {
+                obj.SetActive(false);
+            }
+        
         }
 
         if (collision.gameObject.CompareTag("Curator"))
