@@ -142,9 +142,9 @@ AudioMixerController:
   - guid: e9698adff887b3b4db6b2a45723f9209
     name: MyExposedParam 2
   - guid: 539bfcc09f2a2834d9a407c99057b091
-    name: MyExposedParam 1
+    name: middle
   - guid: 510fd51b74b0ddb42afb36a7147d59bd
-    name: MyExposedParam 3
+    name: underground
   m_AudioMixerGroupViews:
   - guids:
     - 32df0a8dde61fad47aaa6701461f3d20
