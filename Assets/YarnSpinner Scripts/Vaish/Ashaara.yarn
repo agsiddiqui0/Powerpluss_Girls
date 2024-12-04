@@ -11,7 +11,7 @@ Ashaara: My village is ruined. We won't survive. I can't believe I am the last c
 Ashaara: Bug Eyes, I know you didn't do anything but I truly wish I had never met you. 
 Ashaara: Please leave and never come back. 
 <<stop>>
-<<if $ashaara == 0>>
+<<elseif $ashaara == 0>>
 	<<jump AshaaraIntro>>
 <<elseif $ashaara == 1>>
 	<<jump AshaaraQuiz>>

@@ -1,7 +1,7 @@
 ﻿title: Sokka
 tags:
 ---
-<<if visited("Talin")>>
+<<if visited("Tethra")>>
 Sokka: It's okay if all the water is gone. I have my cactus juice!
 Sokka: CACTUS JUICE ALL DAY ALL NIGHT SLURP SLURP SLURP
 <<stop>>
