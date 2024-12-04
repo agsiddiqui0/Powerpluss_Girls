@@ -16,7 +16,10 @@ TagManager:
   - Curator
   - tele
   - tellOFF
+  - PauseScreen
   - Barrels
+  - Sarai
+  - Water
   layers:
   - Default
   - TransparentFX
