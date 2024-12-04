@@ -47,6 +47,11 @@ public class PlayerController : MonoBehaviour
             Effargia.SetActive(false);
         }
 
+        GameObject[] objectsToDeactivate = GameObject.FindGameObjectsWithTag("Appear");
+        foreach (GameObject obj in objectsToDeactivate)
+        {
+            obj.SetActive(false);
+        }
 
 
     }
@@ -135,6 +140,18 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(DeactivateWaterAfterDelay());
         }
 
+        // Check if the object collided with has the tag "barrels"
+        if (collision.gameObject.CompareTag("Barrels"))
+        {
+            // Find all GameObjects with the tag "appear"
+            GameObject[] objectsToAppear = GameObject.FindGameObjectsWithTag("Appear");
+
+            // Loop through each object and set it active
+            foreach (GameObject obj in objectsToAppear)
+            {
+                obj.SetActive(true);
+            }
+        }
 
         if (collision.gameObject.CompareTag("Curator"))
         {
