@@ -1,7 +1,7 @@
 ﻿title: Barrels
 tags:
 ---
-<<if visited("Barrels")
+<<if visited("Barrels")>>
 : ALL HAIL ZEPHYROS!
 <<stop>>
 <<endif>>

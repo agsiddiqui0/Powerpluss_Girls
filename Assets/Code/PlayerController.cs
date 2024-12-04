@@ -64,6 +64,11 @@ public class PlayerController : MonoBehaviour
         {
             obj.SetActive(false);
         }
+        GameObject appearOrb = GameObject.FindWithTag("AppearOrb");
+        if (appearOrb != null)
+        {
+            appearOrb.SetActive(false);
+        }
 
 
     }
