@@ -130,6 +130,12 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Orbs Obtained: " + orb);
         }
 
+        if (collision.gameObject.CompareTag("Sarai"))
+        {      
+            StartCoroutine(DeactivateWaterAfterDelay());
+        }
+
+
         if (collision.gameObject.CompareTag("Curator"))
         {
 
@@ -207,6 +213,25 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(teleportCooldown);
         isTeleporting = false;
+    }
+
+    private IEnumerator DeactivateWaterAfterDelay()
+    {
+        // Wait for 45 seconds
+        yield return new WaitForSeconds(45f);
+
+        // Find the GameObject tagged "Water"
+        GameObject waterTilemap = GameObject.FindWithTag("Water");
+
+        // If the GameObject exists, deactivate it
+        if (waterTilemap != null)
+        {
+            waterTilemap.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("No GameObject with the tag 'Water' found.");
+        }
     }
 
 }

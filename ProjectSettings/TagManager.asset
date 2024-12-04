@@ -17,6 +17,8 @@ TagManager:
   - tele
   - tellOFF
   - Barrels
+  - Sarai
+  - Water
   layers:
   - Default
   - TransparentFX
