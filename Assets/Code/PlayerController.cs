@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Yarn.Unity;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -26,12 +27,23 @@ public class PlayerController : MonoBehaviour
 
     public DialogueRunner dialogueRunner;
 
+    [SerializeField] AudioMixer mixer;
+    
     [SerializeField] Animator animator;
     [SerializeField] AudioSource menuMusic;
     [SerializeField] AudioSource SFXSource;
     [SerializeField] AudioClip orbCollected;
     [SerializeField] Transform destination;
     [SerializeField] private float teleportCooldown = 0.5f; // Cooldown time in seconds
+
+    public void OnMusicVOlumeChange(float value)
+    {
+        mixer.SetFloat("Master", value);
+    }
+    public void OnSFXVolumeChange(float value)
+    {
+        mixer.SetFloat("underground", value);
+    }
 
     void Start()
     {
