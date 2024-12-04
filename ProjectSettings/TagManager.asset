@@ -23,6 +23,7 @@ TagManager:
   - Appear
   - AppearOrb
   - Disappear
+  - Appear2
   layers:
   - Default
   - TransparentFX

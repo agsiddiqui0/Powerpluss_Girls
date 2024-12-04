@@ -58,19 +58,6 @@ public class PlayerController : MonoBehaviour
             Effargia = GameObject.FindGameObjectWithTag("Effargia");
             Effargia.SetActive(false);
         }
-
-        GameObject[] objectsToDeactivate = GameObject.FindGameObjectsWithTag("Appear");
-        foreach (GameObject obj in objectsToDeactivate)
-        {
-            obj.SetActive(false);
-        }
-        GameObject appearOrb = GameObject.FindWithTag("AppearOrb");
-        if (appearOrb != null)
-        {
-            appearOrb.SetActive(false);
-        }
-
-
     }
  
 
@@ -92,10 +79,6 @@ public class PlayerController : MonoBehaviour
         {
             Effargia.SetActive(true);
         }
-
-        
-
-
 
     }
 
@@ -144,7 +127,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D (Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Orb") || collision.gameObject.CompareTag("AppearOrb"))
+        if (collision.gameObject.CompareTag("Orb"))
         {
             collision.gameObject.SetActive(false);
             orb++;
@@ -162,19 +145,6 @@ public class PlayerController : MonoBehaviour
         // Check if the object collided with has the tag "barrels"
         if (collision.gameObject.CompareTag("Barrels"))
         {
-            // Find all GameObjects with the tag "appear"
-            GameObject[] objectsToAppear = GameObject.FindGameObjectsWithTag("Appear");
-            // Loop through each object and set it active
-            foreach (GameObject obj in objectsToAppear)
-            {
-                obj.SetActive(true);
-            }
-            GameObject appearOrb = GameObject.FindWithTag("AppearOrb");
-            if (appearOrb != null)
-            {
-                appearOrb.SetActive(true);
-            }
-
             GameObject[] objectsToDisappear = GameObject.FindGameObjectsWithTag("Disappear");
             // Loop through each object and set it active
             foreach (GameObject obj in objectsToDisappear)
