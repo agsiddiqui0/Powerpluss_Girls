@@ -1,0 +1,23 @@
+﻿title: Zahira
+tags:
+---
+<<if visited("Zahira")>>
+Zahira: Shoo! Poor people with no money should stay away! 
+<<stop>>
+<<endif>>
+Zahira: Oh! Oh! You there! You look like you need cactus floss!
+-> Cactus floss?
+Zahira: Yes! You must have heard of it! It’s a REVOLUTIONARY invention only found here! All Siroccans must have a cactus floss in their home! 
+Zahira: (Although, you don’t look like you have teeth…)
+-> I have very clean teeth!
+	Zahira: Trust me, you don’t even know what clean teeth look like until you use cactus floss.
+-> Oh yes, I could use some cactus floss!
+	Zahira: Excellent! You must buy it!
+Zahira: Here, I’ll give you a special deal just for you because I like you. I’m practically giving it away. 
+Zahira: Don’t think, just buy! You’ll regret it if you don’t buy now for my special price!
+-> I don’t have any money.
+	Zahira: YOU DON’T HAVE ANY MONEY?
+Zahira: Tsk stop wasting my time then! Shoo!
+Zahira: Business is so slow and this weird eyed monster has to come waste my time. 
+Zahira: I wonder where that little one of mine, Kavi, is hiding now. 
+===

@@ -1,0 +1,182 @@
+﻿title: Ashaara
+tags:
+---
+<<declare $ashaara = 0>>
+<<if $ashaara == 0>>
+	<<jump AshaaraIntro>>
+<<elseif $ashaara == 1>>
+	<<jump AshaaraQuiz>>
+<<elseif $ashaara >= 2>>
+    <<jump AshaaraPostSarai>>
+<<endif>>
+===
+
+title: AshaaraIntro
+---
+Daruun: CHIEF! WATCH OUT! It’s some kind of bug-eyed monster! It must be sent by Zephyros to steal the Holy Water! 
+Daruun: I’ll eliminate it right now!
+-> Wait, I’m not a monster! I’m here to help!
+-> What’s wrong with my eyes? ;
+Ashaara: Wait Daruun, hold on. It seems to be capable of communication. SPEAK, CREATURE! What is your purpose here? Are you sent by Zephyros?
+-> I come from an underground society of humans. Until recently, we thought we were the only humans in the world!
+Daruun: PFFT! The monster thinks it’s a human! 
+Ashaara: You look nothing like a human. But continue with your tale.
+-> I emerged from the underground to find a whole world up here! Then I found a frog who told me to come here to find an orb. I’m here to explore!
+Tethryn: An orb you say?
+Tethra: A frog? Hmm, no one has seen a frog in generations. 
+Tethryn: Chief, there might be truth to what the creature says. 
+Tethra: The creature might come from beyond the storm. 
+Daruun: IMPOSSIBLE! No creature can survive the storm. Zephyros has made sure of that. 
+-> Who is Zephyros? What is the storm?
+-> Yeah, well I’m awesome so I can survive anything.
+Tethryn: Chief, the creature seems to be completely clueless.
+Ashaara: CREATURE, do you have a name? 
+-> Umm..
+	Daruun: The creature really is clueless. It doesn’t even know its own name!
+-> You can call me anytime.
+	Daruun: WHAT INSOLENCE! You are in the presence of the great chief Ashaara. Show some respect!
+	Ashaara: Sorry creature, but you aren’t my type.
+Ashaara: Very well, we shall call you “Bug Eyes.” 
+Ashaara: Bug Eyes, let us restart. I am the chief of the Sirocan tribe. This is my bodyguard Daruun, and these are my two advisors Tethryn and Tethra. 
+Tethryn: Let us tell you the story of our tribe…
+Tethra: and the history of this desert.
+<<jump DesertLore>>
+===
+
+title: DesertLore
+---
+Tethryn: Long ago, far before the Great Calamity…
+Tethra: The two great deities Nymir and Zephyros descended to live among the humans. 
+Tethryn: But the two couldn’t get along. Nymir was a life-giving deity while Zephyros believed in the power of destruction. 
+Tethra: The two had a great battle of epic proportions lasting 30 days and 30 nights. Their battle ravaged the fertile land, turning it into the Great Desert. Tethryn: This battle is what we know as the Great Calamity. 
+Tethra: Nymir won the battle and banished Zephyros to the outskirts of the land. In anger and resentment, Zephyros stirred up the Great Dust Storm.
+Tethryn: Nymir felt apologetic to the humans who lived in the land ruined by their battle. In her grace, she constructed the walls which protect us from Zephyros’ storm.
+Tethra: In her mercy, she also granted us the Holy Oasis. The oasis is our only source of water in this desert. The Holy Water is capable of healing any injury or illness. 
+Tethryn: We revere the Oasis as Nymir’s divine gift. However, due to Zephyros’ storm, we have never been able to travel outside of the boundaries of these walls.
+Ashaara: Bug Eyes, it seems that you have a strange coat of protective skin which could have protected you from the Storm. 
+Ashaara: Forgive us for being wary of you, but you must understand that your appearance is very… unusual and quite terrifying. 
+-> That’s okay, I’m sorry I scared you guys.
+-> Yeah, you really hurt my feelings.
+	Daruun: Sorry, but you are probably the ugliest creature I’ve ever seen.
+	Ashaara: Daruun, don’t be rude.
+Ashaara: Bug Eyes, you seem to have good intentions.
+-> Yes I want to help! Where I am from - the underground - we have so much water! We have so much water we don’t know what to do with it!
+Tethryn: Too much water you say?
+Tethra: I can’t believe it.
+-> Yes, really! I’ll help you guys as much as possible. When I find a way back to my underground city, I’m sure we can figure out a way to share the water!
+Ashaara: Hmm, thank you for your kindness, but don’t think you’ve earned our trust yet.
+Ashaara: Will you prove your loyalty to the Sirocan tribe?
+-> Yes!
+-> Ugh fine. 
+	Daruun: Chief, don’t trust this insolent creature! 
+Ashaara: Bug Eyes, I’ll let our people be the judge of your character. Go speak to the people outside in the market, and if they trust you, they will reveal their thoughts. 
+Ashaara: After you’ve spoken to all of them, return to me and I’ll ask you questions to check whether our people trust you.
+Ashaara: Now go! Don’t delay. Make sure to remember their names!
+<<set $ashaara = 1>>
+===
+
+title: AshaaraQuiz
+---
+Ashaara: Are you ready to answer my questions?
+-> Yes. Bring it on.
+-> No, I need more time.
+	<<stop>>
+-> How many villagers are there to talk to?
+	Ashaara: There are 6 villagers in the market. 
+	<<jump AshaaraQuiz>>
+Ashaara: Question 1, Zahira believes that all villagers must have WHAT in their home?
+-> An onion!
+	<<jump Wrong>>
+-> Cactus floss!
+	Ashaara: Correct!
+-> Milk bottles!
+    <<jump Wrong>>
+-> Cactus juice!
+    <<jump Wrong>>
+-> Frogs!
+    <<jump Wrong>>
+-> Water bucket
+    <<jump Wrong>>
+Ashaara: Question 2, what is Talin’s favorite beverage?
+-> Water
+    <<jump Wrong>>
+-> Cactus juice
+    <<jump Wrong>>
+-> Milk
+	Ashaara: Correct!
+-> Lemonade
+    <<jump Wrong>>
+-> Frog juice
+    <<jump Wrong>>
+Ashaara: Question 3, what does the little one Kavi say she saw?
+-> Butterfly
+    <<jump Wrong>>
+-> Oasis
+    <<jump Wrong>>
+-> Frog
+	Ashaara: Correct!
+-> Seashell
+    <<jump Wrong>>
+-> Goo
+    <<jump Wrong>>
+Ashaara: Question 4, who did Amani divorce?
+-> Zahira
+    <<jump Wrong>>
+-> Daruun
+    <<jump Wrong>>
+-> Ravik
+    <<jump Wrong>>
+-> Talin
+	Ashaara: Correct!
+Ashaara: Question 5, Sokka wants to swim in what?
+-> the sky
+    Ashaara: Correct!
+-> the oasis
+    <<jump Wrong>>
+-> milk
+    <<jump Wrong>>
+-> the sand
+    <<jump Wrong>>
+Ashaara: Excellent work, Bug Eyes. I can tell you truly care about our people, so I will trust you. 
+Ashaara: Now I have something to request of you. One of our youth, Sarai, went to fetch water from the oasis and she hasn’t come back for a while. 
+Ashaara: The oasis is east of the market. Will you go check on her for me?
+-> Yes. I’ll do anything to help! 
+-> I’ll do it but reluctantly.
+Ashaara: Okay go now!
+<<set $ashaara = 2>>
+===
+
+
+title: Wrong
+---
+Ashaara: WRONG! Make sure you speak to ALL the villagers and come back and try again! Pay attention as they will not reveal their hearts to you more than once. 
+<<stop>>
+===
+
+title: AshaaraPostSarai
+---
+<<if $ashaara == 3>> 
+-> Chief, I found Sarai and she’s okay! 
+Ashaara: BUG EYES, WHAT HAVE YOU DONE?
+-> What do you mean? I found Sarai as you said!
+Ashaara: OUR HOLY OASIS! IT'S EMPTY!
+Ashaara: HOW COULD YOU? AFTER I TRUSTED YOU!
+Daruun: Chief, I knew it was a mistake to trust the monster. 
+Tethra: All of our oasis water has gone missing. 
+Tethra: Gone as if it was never there.
+-> How could the water have gone missing?
+-> All the water was there when I left!
+Ashaara: WHAT ARE WE SUPPOSED TO DO NOW?
+Tethra: Without our oasis, we won’t last even a few days against the desert.
+Ashaara: BUG EYES, YOU’VE CURSED US ALL!
+Daruun: Chief, allow me to slay this cruel monster.
+Daruun: I should have done so the instant it stepped foot in our hall.
+-> I didn’t do anything! I swear! 
+Tethryn: How are we supposed to trust you? You were the last person to go to the oasis!
+-> I don’t believe all the water could go missing that fast!
+Daruun: THEN GO SEE FOR YOURSELF!  
+<<else>>
+Ashaara: Go find the youth, Sarai, at the oasis east of here. 
+<<stop>>
+<<endif>>
+===
