@@ -1,7 +1,11 @@
 ﻿title: Sokka
 tags:
 ---
-<<if visited("Sokka")>>
+<<if visited("Talin")>>
+Sokka: It's okay if all the water is gone. I have my cactus juice!
+Sokka: CACTUS JUICE ALL DAY ALL NIGHT SLURP SLURP SLURP
+<<stop>>
+<<elseif visited("Sokka")>>
 Sokka: fahefkejafieaflknafekjfaweflkawjkl.
 <<stop>>
 <<endif>>

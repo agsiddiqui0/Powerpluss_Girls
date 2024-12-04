@@ -1,0 +1,35 @@
+﻿title: Tethra
+tags:
+---
+<<if visited ("Tethra")>>
+Tethra: Just take the orb and go back to your city. 
+<<stop>>
+<<endif>>
+Tethra: You weren't supposed to hear that. 
+Tethra: ... I guess you know the truth now. 
+-> You're involved too?
+Tethra: Yes, but not in the way you think.
+Tethra: Let me tell you the whole truth.
+Tethra: I am Zephyros. 
+-> What? I thought Zephyros was a god of myth!
+Tethra: No. I am "Zephyros." Centuries ago, I found a machine deep in the desert capable of creating dust storms.
+Tethra: I figured out how to power it, and I used it to create a dust storm to surround the village.
+Tethra: You may think I was wrong, but I was trying to protect my people from the outside world. 
+-> No, you were trying to control them!
+    Tethra: Take it however you will. 
+-> Yeah, I would have done the same.
+    Tethra: Thank you for empathizing with me. 
+Tethra: Everything was going so well, until you had to stumble in from beyond the storm.
+Tethra: You messed everything up. 
+Tethra: But maybe, this would have happened eventually. The youth are growing curious of the outside world.
+Tethra: I realized when you came to our village that maybe change isn't a bad thing.
+Tethra: Maybe it's time for me to let go of the past and let the world keep moving. 
+-> That's very mature of you.
+    Tethra: I would hope so. I'm centuries old.
+-> No you should keep holding on to the past.
+    Tethra: It doesn't matter what you say now. I've made my decision.
+Tethra: So, I decided to get rid of the storm. I turned off the machine. 
+Tethra: Behind me is the power source I used to power the machine. This red orb.
+Tethra: This is what you came for right? Take it and go. Return to your underground city.
+Tethra: I hope the frog is pleased. 
+===

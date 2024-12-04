@@ -21,6 +21,8 @@ TagManager:
   - Sarai
   - Water
   - Appear
+  - AppearOrb
+  - Disappear
   layers:
   - Default
   - TransparentFX

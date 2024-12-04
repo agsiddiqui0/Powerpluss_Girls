@@ -1,7 +1,11 @@
 ﻿title: Amani
 tags:
 ---
-<<if visited("Talin")>>
+<<if visited("Tethra")>>
+Amani: AAAH IT'S THE END OF THE WORLD!!!
+Amani: ZEPHYROS IS COMING FOR US ALL!!!
+<<stop>>
+<<elseif visited("Talin")>>
 Amani: Hey, you look like you’re itching to ask me something.
 -> What happened between you and Talin?
 -> How could you leave Talin?

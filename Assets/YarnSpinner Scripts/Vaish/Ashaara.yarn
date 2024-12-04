@@ -2,6 +2,15 @@
 tags:
 ---
 <<declare $ashaara = 0>>
+<<if visited("Tethra")>>
+-> You tell Ashaara everything.
+Ashaara: I never expected this kind of treachery from my own advisors, my own people.
+Ashaara: ...I guess this was only a matter of time.
+Ashaara: In a world with such limited resources, it is obvious that some people would try to take everything for themselves.
+Ashaara: My village is ruined. We won't survive. I can't believe I am the last chief of the Sirocans.
+Ashaara: Bug Eyes, I know you didn't do anything but I truly wish I had never met you. 
+Ashaara: Please leave and never come back. 
+<<stop>>
 <<if $ashaara == 0>>
 	<<jump AshaaraIntro>>
 <<elseif $ashaara == 1>>
