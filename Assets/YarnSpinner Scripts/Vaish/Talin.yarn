@@ -1,0 +1,28 @@
+﻿title: Talin
+tags:
+---
+<<if visited("Talin")>>
+Talin: My sweet Amani. I cry tears of milk as I yearn for you.  
+<<stop>>
+<<endif>>
+Talin: What do you want? Can’t you see I’m wallowing in my milk?
+-> Can I buy some milk?
+	Talin: Sorry, we’re all out.
+		-> I see milk right behind you.
+-> Why are you wallowing?
+	Talin: Why do you care?
+Talin: Listen man, let me give you some advice. 
+Talin: Number 1, don’t question a man’s milk.
+Talin: Number 2, hope is an illusion. You chase the mirage for so long, but all you find at the end is milk. 
+-> What’s got you so down? 
+-> Why do you like milk so much?
+Talin: Milk is love. Love is milk. You fight for it, you chase it, you yearn for it. But in the end, it all dries up.
+Talin: Like my tears.
+-> So you’re not going to give me any milk?
+-> Wow man, that really sucks for you.
+Talin: Every drop costs a dream. I’ll trade you dreams for milk. I already gave all my dreams to… her. 
+-> Sorry, I hope you feel better!
+-> You’re a weirdo. 
+Talin: The milk is always creamier on the other side of the fence. 
+Talin: WHY DOESN’T SHE WANT ME?
+===

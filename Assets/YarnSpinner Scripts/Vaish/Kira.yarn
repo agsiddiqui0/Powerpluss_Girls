@@ -1,0 +1,29 @@
+﻿title: Kira
+tags:
+---
+<<if visited("Kira")>>
+Kira: The drought has claimed this part of the desert. I’ll have to find a new place to harvest cactus fruits. Thank Nymir for our Holy Oasis.
+<<stop>>
+<<endif>>
+Kira: AAAH! What are you? Some kind of monster?
+-> I’m a human! A frog sent me here to look for an orb.
+Kira: A human? You look nothing like a human! Where are your ears? 
+Kira: What is this frog you speak of? You’re spouting nonsense!
+-> I’m telling the truth!
+	Kira: I don’t believe you! 
+-> You’re right. I’m a monster sent to trick you.
+	Kira: I knew it!
+Kira: You must be a monster sent by Zephyros as a punishment. 
+-> Who?
+-> Zephy-what?
+Kira: Do your worst, monster! I am a highly trained warrior of the Sirocan tribe!
+Kira: I can withstand the harshest sandstorms and the fiercest droughts. Your… creepy eyes and weird face cannot harm me!
+-> I don’t want to hurt you.
+-> I’m not really a monster.
+Kira: I’LL FIGHT TILL MY LAST BREATH AND I’LL - wait, you’re not a monster? 
+Kira: I guess you are strangely docile for a monster sent by Zephyros. Argh, this is too much for me to handle. I’ll leave this to the elders.
+Kira: STRANGE CREATURE! Heed my order! Continue east along this path and you’ll find the settlement of my Sirocan tribe!
+Kira: Enter the large town hall and speak to the village chief Ashaara! Don’t stray in your path, go straight to the town hall!
+-> Understood. I’ll head over right now!
+-> Ugh fine.
+===

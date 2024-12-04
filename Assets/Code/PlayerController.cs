@@ -47,6 +47,11 @@ public class PlayerController : MonoBehaviour
             Effargia.SetActive(false);
         }
 
+        GameObject[] objectsToDeactivate = GameObject.FindGameObjectsWithTag("Appear");
+        foreach (GameObject obj in objectsToDeactivate)
+        {
+            obj.SetActive(false);
+        }
 
 
     }
@@ -130,6 +135,24 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Orbs Obtained: " + orb);
         }
 
+        if (collision.gameObject.CompareTag("Sarai"))
+        {      
+            StartCoroutine(DeactivateWaterAfterDelay());
+        }
+
+        // Check if the object collided with has the tag "barrels"
+        if (collision.gameObject.CompareTag("Barrels"))
+        {
+            // Find all GameObjects with the tag "appear"
+            GameObject[] objectsToAppear = GameObject.FindGameObjectsWithTag("Appear");
+
+            // Loop through each object and set it active
+            foreach (GameObject obj in objectsToAppear)
+            {
+                obj.SetActive(true);
+            }
+        }
+
         if (collision.gameObject.CompareTag("Curator"))
         {
 
@@ -207,6 +230,25 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(teleportCooldown);
         isTeleporting = false;
+    }
+
+    private IEnumerator DeactivateWaterAfterDelay()
+    {
+        // Wait for 45 seconds
+        yield return new WaitForSeconds(45f);
+
+        // Find the GameObject tagged "Water"
+        GameObject waterTilemap = GameObject.FindWithTag("Water");
+
+        // If the GameObject exists, deactivate it
+        if (waterTilemap != null)
+        {
+            waterTilemap.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("No GameObject with the tag 'Water' found.");
+        }
     }
 
 }

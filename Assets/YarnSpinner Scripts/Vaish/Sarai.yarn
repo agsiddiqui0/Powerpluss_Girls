@@ -1,0 +1,43 @@
+﻿title: Sarai
+tags:
+---
+<<if visited("AshaaraPostSarai") and visited("Sarai")>>
+Sarai: I have no idea what happened!
+Sarai: All the water suddenly drained through that hole!
+<<stop>>
+<<elseif visited("Sarai")>>
+Sarai: Just a little longer, please. 
+<<stop>>
+<<endif>>
+Sarai: Ooh what kind of creature are you?
+-> I’m a friend sent by the village chief to look for you.
+-> I’m an evil monster sent by Zephyros to eat you.
+	Sarai: Haha there’s no way you’re an evil monster. You’re too cute and cuddly! 
+	-> Your chief sent me to look for you. 
+Sarai: Oh, is it that time already? I lost track of time.
+Sarai: Sometimes, I just like to stare at the oasis, and I get lost watching the waves go back and forth. 
+Sarai: Do you want to stay and watch them for a while with me?
+-> Sure!
+    : ……..
+    : ……..
+    : ……..
+Sarai: Doesn’t it just calm you down?
+-> I guess a little bit.
+-> Not at all. The splashing stresses me out. 
+	Sarai: Oh, that’s unfortunate. 
+-> I feel like all my stress has melted away into the breeze. 
+	Sarai: Yay! I’m happy to hear.
+Sarai: I wonder what is outside the storm. You're from beyond the storm, right?
+-> Yes!
+Sarai: What's it like out there? Did you guys have an oasis in your desert too?
+-> Actually I come from an underground city. We got our water from aquifers inside the earth.
+Sarai: What! That sounds crazy? Water in the dirt? A city underground? 
+Sarai: You're making that up! But I'd like to see something like that one day. 
+Sarai: Okay, you can go back to Chief and tell her that I’ll be back soon. I’d just like to stare at the oasis for a little while longer. 
+-> Got it! 
+-> It’s just a big puddle. What’s so interesting about it?
+	Sarai: I guess it really is just a big puddle, but sometimes you have to find happiness in the little things in life. 
+	Sarai: Sometimes, you just have to stare at a big puddle until everything starts to make sense. 
+Sarai: I hope you find happiness one day. 
+<<set $ashaara = 3>> 
+===

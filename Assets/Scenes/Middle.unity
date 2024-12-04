@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1343515870488138895, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1518648216099074158, guid: e07b978442cccdd4db1c2eda0830b9e5, type: 3}
       propertyPath: dialogueRunner

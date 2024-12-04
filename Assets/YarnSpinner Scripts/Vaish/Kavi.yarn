@@ -1,0 +1,29 @@
+﻿title: Kavi
+tags:
+---
+<<if visited("Kavi")>>
+Kavi: Your shoes are untied!
+-> But I don’t have laces…
+-> No, your shoes are untied!
+Kavi: Be careful! You might trip into the hole under the oasis!
+<<stop>>
+<<endif>>
+Kavi: Peek a boo! You found me!
+-> Why are you hiding?
+	Kavi: Hehe!
+-> Ew a child.
+	Kavi: Ew a bug-eyed monster.
+Kavi: You are so ugly!
+-> That’s not nice.
+-> Says you.
+Kavi: It’s okay, my mom says ugly people don’t catch colds!
+Kavi: I don’t know what a cold is though.
+Kavi: Do you want to play with me?
+-> Sorry, I’m busy, but we can play another time!
+	Kavi: Okay, fine…
+-> Ew.
+	Kavi: I didn’t want to play with you anyway!
+Kavi: Just don’t tell my mom I’m here! Hehe! 
+Kavi: Wanna hear a secret? 
+Kavi: Once, I saw a frog and it looked so delicious!
+===
