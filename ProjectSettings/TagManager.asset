@@ -20,6 +20,7 @@ TagManager:
   - Barrels
   - Sarai
   - Water
+  - Appear
   layers:
   - Default
   - TransparentFX
