@@ -1,0 +1,32 @@
+﻿title: Amani
+tags:
+---
+<<if visited("Talin")>>
+Amani: Hey, you look like you’re itching to ask me something.
+-> What happened between you and Talin?
+-> How could you leave Talin?
+Amani: Ahh, is he throwing a tantrum again? It’s been months and he’s still blabbering. 
+-> He seems really hurt.
+	Amani: Oh, he’ll get over it.
+-> What happened?
+Amani: He was too obsessed with his milk. We would go on dates and he would always pull up another chair for his milk.
+Amani: He would hold his milk as he slept, leaving me to sleep on the floor without a blanket. 
+Amani: My breaking point was when he skipped our wedding because his milk bottle cracked and he was crying over spilled milk.
+-> Wow, that sounds awful. Good thing you left.
+	Amani: Yes! I’m going to become successful by myself!
+-> HOW COULD YOU BREAK HIS MILKY HEART?!
+	Amani: If you empathize with his sorry butt, you can go cry milky tears right along with him.
+<<stop>>
+<<endif>>
+
+Amani: Hi, stranger! I heard about you from the elders. I’m Amani!
+-> Nice to meet you, Amani!
+	Amani: You’re more polite than Daruun said!
+-> Wow, news spreads fast. 
+	Amani: It’s a small village. 
+Amani: Are you looking to buy any of my wares? I don’t have much because I recently got divorced, but I’m trying to make a living by myself now!
+-> I don’t have any money to buy.
+-> No thank you.
+Amani: That’s okay! Come back if you have any questions! I’m happy to help. 
+
+===

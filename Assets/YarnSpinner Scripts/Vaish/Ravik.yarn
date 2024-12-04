@@ -1,0 +1,27 @@
+﻿title: Ravik
+tags:
+---
+<<if visited("Ravik")>>
+Ravik: I knew you’d come back.
+-> I don’t want your smelly onion. 
+-> Sorry, no money.
+Ravik: Okay whatever man. But don’t say I didn’t warn you!
+<<stop>>
+<<endif>>
+Ravik: Hey.
+-> Me? 
+Ravik: Yeah you. Listen, keep your voice down.
+Ravik: Take a look at this. This is a sacred onion. I found it in the dunes.
+-> What’s sacred about it?
+-> It just looks like an onion?
+Ravik: No, no, you don’t get it. It’s SACRED. I can’t explain it to you. 
+-> WHAT’S SO SPECIAL ABOUT THE ONION??
+Ravik: HEY! Keep your voice down. You never know who’s listening.
+Ravik: These sands have ears, my bug-eyed brother. Don’t trust anyone, not even me.
+Ravik: So, are you buying? No refunds.
+-> I don’t like onions. You have any carrots?
+	Ravik: What is this carrot you speak of?
+-> Your onion smells.
+	Ravik: That’s the smell of the sacred juices. 
+Ravik: Aw whatever man. Don’t say I didn’t warn you!
+===
