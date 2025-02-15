@@ -10,7 +10,11 @@ public class ChangeSceneTrigger : MonoBehaviour
     [SerializeField] string sceneName;
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        SceneManager.LoadScene(sceneName);
+        SceneTransition sceneTransition = FindObjectOfType<SceneTransition>();
+        if (sceneTransition != null)
+        {
+            sceneTransition.FadeOutAndLoadScene(sceneName);
+        }
         FindObjectOfType<ScreenChanger>().FadeToScene(sceneName);
     }
 
