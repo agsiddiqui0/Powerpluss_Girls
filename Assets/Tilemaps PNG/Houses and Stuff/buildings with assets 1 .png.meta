@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4cd32366b304e440aa5c8ab96d1ef68
+guid: 539dfa8d8d63c06479ee95f7d6baa38b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (18)_0
+      name: buildings with assets 1 _0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 680
-        width: 210
-        height: 200
+        x: 10
+        y: 195
+        width: 195
+        height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01143610a8772014083573f96753de62
-      internalID: 1441578140
+      spriteID: 7289660ef38950c49bf7d28dfe38dd7a
+      internalID: -406090746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (18)_1
+      name: buildings with assets 1 _1
       rect:
         serializedVersion: 2
-        x: 390
-        y: 660
-        width: 190
-        height: 280
+        x: 205
+        y: 195
+        width: 195
+        height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec29da7db7e1b641bcb67cb516f86ff
-      internalID: -1351990414
+      spriteID: 90d1cd27a1e3eb9409179a2c4a018408
+      internalID: 671473331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (18)_2
+      name: buildings with assets 1 _2
       rect:
         serializedVersion: 2
-        x: 660
-        y: 670
-        width: 250
-        height: 100
+        x: 10
+        y: 0
+        width: 195
+        height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb1fea1c2c1d9ac43bdfcf568655fafe
-      internalID: -762577698
+      spriteID: 6f802356dc80e10488652a940e59e58e
+      internalID: 17812979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixil-frame-0 (18)_3
+      name: buildings with assets 1 _3
       rect:
         serializedVersion: 2
-        x: 80
-        y: 410
-        width: 340
-        height: 150
+        x: 205
+        y: 0
+        width: 195
+        height: 195
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,29 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf690bbc806dc7944a8ab5a729e92869
-      internalID: -1972562383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixil-frame-0 (18)_4
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 380
-        width: 430
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0220a3b6028577a43bb44c5a59aa606c
-      internalID: -1996101758
+      spriteID: 531bc6c34ee3f6f41933e45f47395e15
+      internalID: -661233996
       vertices: []
       indices: 
       edges: []
@@ -225,11 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixil-frame-0 (18)_0: 1441578140
-      pixil-frame-0 (18)_1: -1351990414
-      pixil-frame-0 (18)_2: -762577698
-      pixil-frame-0 (18)_3: -1972562383
-      pixil-frame-0 (18)_4: -1996101758
+      buildings with assets 1 _0: -406090746
+      buildings with assets 1 _1: 671473331
+      buildings with assets 1 _2: 17812979
+      buildings with assets 1 _3: -661233996
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
