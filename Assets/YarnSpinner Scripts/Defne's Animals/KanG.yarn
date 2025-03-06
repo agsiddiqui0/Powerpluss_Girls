@@ -1,0 +1,11 @@
+﻿title: KanG
+tags:
+---
+<<declare $kang = false>>
+
+KanGOOroo: I'm saying stuff.
+KanGOOroo: Bla bla
+
+<<set $kang = true>>
+
+===
