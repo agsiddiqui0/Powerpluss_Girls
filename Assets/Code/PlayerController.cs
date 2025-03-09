@@ -11,7 +11,9 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Vector2 movementVector;
     private Rigidbody2D rb;
-    const int speed = 4;
+    public float baseSpeed = 4f;
+    public float sprintMultiplier = 5f; 
+
     public bool movementEnabled = true;
     int orb = 0;
     public bool curatetalk = false;
@@ -68,11 +70,12 @@ public class PlayerController : MonoBehaviour
         tele1 = GameObject.Find("MuseumTele (1)");
         tele2 = GameObject.Find("MuseumTele");
         if (movementEnabled) 
-         {
-            rb.velocity = new Vector2(speed * movementVector.x, speed * movementVector.y);
-
+        {
+            float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? baseSpeed * sprintMultiplier : baseSpeed;
             movementVector.x = Input.GetAxisRaw("Horizontal");
             movementVector.y = Input.GetAxisRaw("Vertical");
+            movementVector = movementVector.normalized;
+            rb.velocity = new Vector2(currentSpeed * movementVector.x, currentSpeed * movementVector.y);
         }
     
         if (animalpoints > 11)
