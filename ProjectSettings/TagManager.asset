@@ -24,6 +24,7 @@ TagManager:
   - AppearOrb
   - Disappear
   - Appear2
+  - Interact
   layers:
   - Default
   - TransparentFX
