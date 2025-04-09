@@ -25,6 +25,7 @@ TagManager:
   - Disappear
   - Appear2
   - Interact
+  - Balloon
   layers:
   - Default
   - TransparentFX
