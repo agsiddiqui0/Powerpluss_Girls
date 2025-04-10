@@ -15,6 +15,11 @@ public class button_hitting : MonoBehaviour
     [SerializeField] private TMP_Text timerText;
     [SerializeField] private float gameDuration = 30f;
 
+    [SerializeField] private GameObject hitBackground;
+    [SerializeField] private GameObject missBackground;
+    [SerializeField] private float bgFlashDuration = 0.2f;
+
+
     private Vector2 xRange;
     private Vector2 yRange;
 
@@ -70,6 +75,47 @@ public class button_hitting : MonoBehaviour
         }
     }
 
+    IEnumerator FlashBackground(GameObject bgObject)
+    {
+        if (bgObject == null) yield break;
+
+        bgObject.SetActive(true);
+        yield return new WaitForSeconds(bgFlashDuration);
+        bgObject.SetActive(false);
+    }
+
+
+
+    IEnumerator BalloonLifetime(GameObject balloon, float lifetime)
+    {
+        yield return new WaitForSeconds(lifetime);
+
+        if (balloon != null) // balloon was not clicked
+        {
+            score = Mathf.Max(0, score - 1);
+            UpdateUI();
+            activeBalloons--;
+            Destroy(balloon);
+
+            StartCoroutine(FlashBackground(missBackground));
+        }
+
+    }
+
+    IEnumerator AnimatePopIn(Transform obj, float duration)
+    {
+        float timer = 0f;
+        Vector3 targetScale = Vector3.one;
+
+        while (timer < duration)
+        {
+            obj.localScale = Vector3.Lerp(Vector3.zero, targetScale, timer / duration);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        obj.localScale = targetScale; // make sure it finishes exactly at 1
+    }
 
 
     IEnumerator CountdownTimer()
@@ -87,10 +133,13 @@ public class button_hitting : MonoBehaviour
     void SpawnBalloon()
     {
         if (activeBalloons >= maxBalloons)
-            return; // Don’t spawn more than max allowed
+            return;
 
         GameObject balloon = Instantiate(balloonPrefab, canvasRectTransform);
         activeBalloons++;
+        balloon.transform.localScale = Vector3.zero;
+        StartCoroutine(AnimatePopIn(balloon.transform, 0.3f));
+
 
         float randomX = Random.Range(xRange.x, xRange.y);
         float randomY = Random.Range(yRange.x, yRange.y);
@@ -100,9 +149,15 @@ public class button_hitting : MonoBehaviour
         {
             score++;
             UpdateUI();
-            activeBalloons--; // decrease the count when popped
+            activeBalloons--;
             Destroy(balloon);
+
+            StartCoroutine(FlashBackground(hitBackground));
         });
+
+
+        // Start timeout countdown
+        StartCoroutine(BalloonLifetime(balloon, 2f)); // 3 seconds timeout
     }
 
 
