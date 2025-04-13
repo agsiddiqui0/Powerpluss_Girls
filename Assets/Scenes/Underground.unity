@@ -820,7 +820,7 @@ GameObject:
   - component: {fileID: 280749506}
   - component: {fileID: 280749505}
   m_Layer: 0
-  m_Name: Yeni Proje (7)
+  m_Name: Black Fade Library Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4469,7 +4469,7 @@ GameObject:
   - component: {fileID: 1002764146}
   - component: {fileID: 1002764145}
   m_Layer: 0
-  m_Name: Yeni Proje (6)
+  m_Name: Black Fade Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7044,7 +7044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6548462473836289006, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Library Code NPC
       objectReference: {fileID: 0}
     - target: {fileID: 6548462473836289006, guid: 1206f365a0f72d6429353dcb7b61d857, type: 3}
       propertyPath: m_TagString
