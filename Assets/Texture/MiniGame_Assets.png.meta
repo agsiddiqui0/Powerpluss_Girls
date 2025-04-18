@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 49c44607e0789ea4096fc107a25182f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MiniGame_Assets_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 410
+        width: 790
+        height: 594
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325aba87d91acaf419f2562c6a1ead1c
+      internalID: 695803777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniGame_Assets_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 539
+        width: 443
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a012e8c17bf11aa44b870034e11ccc95
+      internalID: 1408203359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniGame_Assets_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 330
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838f97cf0495144c98410fc32efca14
+      internalID: 1378463494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniGame_Assets_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 22
+        width: 324
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8665c1434b0311e48bf96e7f3c9c6790
+      internalID: 1725962279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniGame_Assets_25
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 86
+        width: 701
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eadcd789b36f744856f9a539024458
+      internalID: -1423716810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MiniGame_Assets_0: 695803777
+      MiniGame_Assets_1: 1408203359
+      MiniGame_Assets_10: 5277601
+      MiniGame_Assets_11: 1357528289
+      MiniGame_Assets_12: 719432166
+      MiniGame_Assets_13: 1877092592
+      MiniGame_Assets_14: -1721529623
+      MiniGame_Assets_15: -1859197734
+      MiniGame_Assets_16: -2087321305
+      MiniGame_Assets_17: 322377577
+      MiniGame_Assets_18: 1378463494
+      MiniGame_Assets_19: 1725962279
+      MiniGame_Assets_2: 1987212262
+      MiniGame_Assets_20: -1824444413
+      MiniGame_Assets_21: 449395916
+      MiniGame_Assets_22: -1885278769
+      MiniGame_Assets_23: -352585309
+      MiniGame_Assets_24: -1273199206
+      MiniGame_Assets_25: -1423716810
+      MiniGame_Assets_26: 312933783
+      MiniGame_Assets_27: 1841608320
+      MiniGame_Assets_28: -1978033590
+      MiniGame_Assets_29: -2053761785
+      MiniGame_Assets_3: -298198513
+      MiniGame_Assets_30: 465092318
+      MiniGame_Assets_31: 1961178139
+      MiniGame_Assets_32: 1052201129
+      MiniGame_Assets_33: 3686136
+      MiniGame_Assets_34: -1453844298
+      MiniGame_Assets_4: 1204704904
+      MiniGame_Assets_5: -229145356
+      MiniGame_Assets_6: 1383249797
+      MiniGame_Assets_7: -550672619
+      MiniGame_Assets_8: 1538157866
+      MiniGame_Assets_9: 1873754550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

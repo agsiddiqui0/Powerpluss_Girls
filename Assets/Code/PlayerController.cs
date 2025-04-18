@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementVector;
     private Rigidbody2D rb;
     public float baseSpeed = 4f;
-    public float sprintMultiplier = 5f; 
+    public float sprintMultiplier = 5f;
 
     public bool movementEnabled = true;
     int orb = 0;
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     public DialogueRunner dialogueRunner;
 
     [SerializeField] AudioMixer mixer;
-    
+
     [SerializeField] Animator animator;
     [SerializeField] AudioSource menuMusic;
     [SerializeField] AudioSource SFXSource;
@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
             Effargia.SetActive(false);
         }
     }
- 
+
 
     // Update is called once per frame
     void Update()
@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
         tele = GameObject.Find("MuseumTele (2)");
         tele1 = GameObject.Find("MuseumTele (1)");
         tele2 = GameObject.Find("MuseumTele");
-        if (movementEnabled) 
+        if (movementEnabled)
         {
             float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? baseSpeed * sprintMultiplier : baseSpeed;
             movementVector.x = Input.GetAxisRaw("Horizontal");
@@ -77,10 +77,14 @@ public class PlayerController : MonoBehaviour
             movementVector = movementVector.normalized;
             rb.velocity = new Vector2(currentSpeed * movementVector.x, currentSpeed * movementVector.y);
         }
-    
+
         if (animalpoints > 11)
         {
             Effargia.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            SceneManager.LoadScene("RhythmMiniGame");
         }
 
     }
@@ -92,7 +96,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("Walk_Front", !Mathf.Approximately(movementVector.y, 0));
         animator.SetBool("Walk_Back", !Mathf.Approximately(movementVector.y, 0));
 
-        if(!Mathf.Approximately(movementVector.x, 0))
+        if (!Mathf.Approximately(movementVector.x, 0))
         {
             sr.flipX = movementVector.x < 0;
         }
@@ -113,7 +117,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Walk_Front", false);
         }
 
-     
+
     }
     public void FreezeMovement()
     {
@@ -128,7 +132,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D (Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Orb"))
         {
@@ -137,11 +141,11 @@ public class PlayerController : MonoBehaviour
             SFXSource.PlayOneShot(orbCollected);
             Debug.Log("Orbs Obtained: " + orb);
         }
-    
+
 
 
         if (collision.gameObject.CompareTag("Sarai"))
-        {      
+        {
             StartCoroutine(DeactivateWaterAfterDelay());
         }
 
@@ -154,7 +158,7 @@ public class PlayerController : MonoBehaviour
             {
                 obj.SetActive(false);
             }
-        
+
         }
 
         if (collision.gameObject.CompareTag("Curator"))
@@ -172,14 +176,14 @@ public class PlayerController : MonoBehaviour
             tele.transform.position = new Vector2(-200, -50);
             tele1.transform.position = new Vector2(-200, 0);
             tele2.transform.position = new Vector2(-200, 30);
-            
+
 
             Debug.Log("CT status: " + curatetalk);
         }
 
         if (collision.gameObject.CompareTag("Suit_Animal"))
         {
-           
+
             animalpoints++;
             Debug.Log("Animal points: " + animalpoints);
         }
@@ -196,7 +200,7 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Block_Collider_2") && bubbaPoints >= 2)
         {
-               collision.gameObject.SetActive(false);
+            collision.gameObject.SetActive(false);
         }
         if (collision.gameObject.CompareTag("Block_Collider_3") && bubbaPoints >= 4)
         {
