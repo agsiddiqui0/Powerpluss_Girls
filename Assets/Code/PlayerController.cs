@@ -36,7 +36,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
     [SerializeField] AudioClip orbCollected;
     [SerializeField] Transform destination;
+    
     [SerializeField] private float teleportCooldown = 0.5f; // Cooldown time in seconds
+
+    public GameObject projectilePrefab;
+    public GameObject lightningPrefab;
+    private Vector2 lastMoveDirection = Vector2.right;
+    public float projectileSpeed = 100f;
 
     public void OnMusicVOlumeChange(float value)
     {
@@ -75,6 +81,10 @@ public class PlayerController : MonoBehaviour
             movementVector.x = Input.GetAxisRaw("Horizontal");
             movementVector.y = Input.GetAxisRaw("Vertical");
             movementVector = movementVector.normalized;
+            if (movementVector != Vector2.zero)
+            {
+                lastMoveDirection = movementVector;
+            }
             rb.velocity = new Vector2(currentSpeed * movementVector.x, currentSpeed * movementVector.y);
         }
 
@@ -86,7 +96,34 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("RhythmMiniGame");
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Shoot();
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            CastLightning();
+        }
 
+
+    }
+    void CastLightning()
+    {
+        Vector2 offset = lastMoveDirection.normalized * 3.2f;
+        Vector3 spawnPosition = transform.position + new Vector3(offset.x, offset.y, 0);
+
+        GameObject lightning = Instantiate(lightningPrefab, spawnPosition, Quaternion.identity);
+
+        if (lastMoveDirection.x > 0)
+            lightning.transform.rotation = Quaternion.Euler(0, 0, 0);
+        else if (lastMoveDirection.x < 0)
+            lightning.transform.rotation = Quaternion.Euler(0, 0, 180);
+        else if (lastMoveDirection.y > 0)
+            lightning.transform.rotation = Quaternion.Euler(0, 0, 90);
+        else if (lastMoveDirection.y < 0)
+            lightning.transform.rotation = Quaternion.Euler(0, 0, -90);
+
+        Destroy(lightning, 0.3f);
     }
 
     void OnMove(InputValue value)
@@ -118,6 +155,23 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
+    void Shoot()
+    {
+        GameObject projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        Rigidbody2D prb = projectile.GetComponent<Rigidbody2D>();
+        prb.velocity = lastMoveDirection * projectileSpeed;
+
+        if (lastMoveDirection.x > 0)
+            projectile.transform.rotation = Quaternion.Euler(0, 0, 0);
+        else if (lastMoveDirection.x < 0)
+            projectile.transform.rotation = Quaternion.Euler(0, 0, 180);
+        else if (lastMoveDirection.y > 0)
+            projectile.transform.rotation = Quaternion.Euler(0, 0, 90);
+        else if (lastMoveDirection.y < 0)
+            projectile.transform.rotation = Quaternion.Euler(0, 0, -90);
+
+        Destroy(projectile, 2f);
     }
     public void FreezeMovement()
     {
