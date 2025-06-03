@@ -30,6 +30,8 @@ public class RhythmMiniGame : MonoBehaviour
     private int playerIndex = 0;
     private int round = 1;
     private bool inputEnabled = false;
+    private bool gameStarted = false;
+
 
     void Start()
     {
@@ -41,8 +43,18 @@ public class RhythmMiniGame : MonoBehaviour
             gameUI.SetActive(true);
 
         InitButtons();
-        StartCoroutine(PlayRound());
+        //StartCoroutine(PlayRound());
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L) && !gameStarted)
+        {
+            gameStarted = true;
+            StartCoroutine(PlayRound());
+        }
+    }
+
 
     void InitButtons()
     {
