@@ -28,6 +28,7 @@ TagManager:
   - Balloon
   - Fminigame
   - CodeBlocker
+  - Lightning
   layers:
   - Default
   - TransparentFX
