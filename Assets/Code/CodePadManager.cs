@@ -67,7 +67,7 @@ public class CodePadManager : MonoBehaviour
     {
         if (playerInput == correctCode)
         {
-            inputDisplay.text = "IN";
+            inputDisplay.text = "UNLOCKED";
             if (unlockableObject != null)
             {
                 unlockableObject.SetActive(false); // disable the object

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: resizedPad_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 367
+        width: 108
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4719ddc06be3e874fa42145272c21f5a
+      internalID: 1268131686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 367
+        width: 109
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e0ab4499fa8f54da0242f69aeb58e0
+      internalID: -2071205811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 367
+        width: 108
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d800cb326fe0b340b683e7938e9e074
+      internalID: 17697935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 257
+        width: 108
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0fc1db7070def4ba87f56e51d8f02e
+      internalID: -1846101649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 257
+        width: 109
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274faacee0ea4f44b851f1815e70f42a
+      internalID: 614723350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 257
+        width: 108
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13718edfd7c459148baf266602bb7acd
+      internalID: -202798088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 147
+        width: 108
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31ee219fa5e514e9b387c51cdbdef5
+      internalID: -348065157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 147
+        width: 109
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ff2a25424f96447b1821421bea0d2e
+      internalID: -184898195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 147
+        width: 108
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab3504ffdc963243ab819ef668f6248
+      internalID: 418854283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resizedPad_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 43
+        width: 109
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd5a196b1957e441b1d59a3c88e5bed
+      internalID: 778804382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      resizedPad_0: 1268131686
+      resizedPad_1: -2071205811
+      resizedPad_2: 17697935
+      resizedPad_3: -1846101649
+      resizedPad_4: 614723350
+      resizedPad_5: -202798088
+      resizedPad_6: -348065157
+      resizedPad_7: -184898195
+      resizedPad_8: 418854283
+      resizedPad_9: 778804382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
