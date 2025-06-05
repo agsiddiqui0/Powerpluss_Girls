@@ -1,0 +1,16 @@
+title: Beginning
+---
+<<if visited("Beginning")>>
+Patty the Pyrotechnic: Stand back...
+<<stop>>
+<<endif>>
+-> It looks like we just need one more explosion to get to the next part of this cavern. From the looks of it, this open space is <b>big</b>.
+Patty the Pyrotechnic: O-Okay... Oh no, I don't have any more dynamite!
+Matt the Miner: Chill outtttt. Take some of this, it should do the trick.
+Patty the Pyrotechnic: W-what is this!? If this is an illegal substance, I want NOTHING to do with-
+Matt the Miner: C'monnn, what do you take me for? It's just some classic gunpowder! 
+Patty the Pyrotechnic: ...
+-> A little risky, but it'll do the trick.
+Matt the Miner: Exactlyyyy, thanks boss! Now Patty, if you're not gonna light it, just hand it over and I-
+Patty the Pyrotechnic: N-NO! I got it! Stand back...
+===
