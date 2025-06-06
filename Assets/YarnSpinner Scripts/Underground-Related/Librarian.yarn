@@ -1,0 +1,17 @@
+title: Librarian
+---
+<<if visited("Librarian")>>
+Unless you got books to return, leave me alone.
+<<stop>>
+<<endif>>
+Sigh, it's you again.
+-> What's with the attitude?
+-> I know you missed me. Winks
+Whatever. What are you here to pester me about this time? 
+-> Just checking in on my favorite librarian~
+I'm the ONLY librarian here… Seriously, what do you need?
+-> Chief might have lost a slip of paper with a number on it around here. Have you seen anything?
+Can't say I have. Try checking around here or the seating area, he was dawdling around those locations the most.
+-> I knew I could rely on you!
+Save it.
+===
